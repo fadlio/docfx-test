@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Translations
+  commentId: N:Instaclause.Domain.Translations
+  id: Instaclause.Domain.Translations
+  children:
+  - Instaclause.Domain.Translations.Language
+  - Instaclause.Domain.Translations.Translation
+  - Instaclause.Domain.Translations.TranslationStatus
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain.Translations
+  nameWithType: Instaclause.Domain.Translations
+  fullName: Instaclause.Domain.Translations
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.Translations.Language
+  commentId: T:Instaclause.Domain.Translations.Language
+  parent: Instaclause.Domain.Translations
+  href: Instaclause.Domain.Translations.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: Instaclause.Domain.Translations.Language
+- uid: Instaclause.Domain.Translations.Translation
+  commentId: T:Instaclause.Domain.Translations.Translation
+  href: Instaclause.Domain.Translations.Translation.html
+  name: Translation
+  nameWithType: Translation
+  fullName: Instaclause.Domain.Translations.Translation
+- uid: Instaclause.Domain.Translations.TranslationStatus
+  commentId: T:Instaclause.Domain.Translations.TranslationStatus
+  parent: Instaclause.Domain.Translations
+  href: Instaclause.Domain.Translations.TranslationStatus.html
+  name: TranslationStatus
+  nameWithType: TranslationStatus
+  fullName: Instaclause.Domain.Translations.TranslationStatus
+- uid: Instaclause.Domain.Translations
+  commentId: N:Instaclause.Domain.Translations
+  href: Instaclause.html
+  name: Instaclause.Domain.Translations
+  nameWithType: Instaclause.Domain.Translations
+  fullName: Instaclause.Domain.Translations
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Translations
+    name: Translations
+    href: Instaclause.Domain.Translations.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Translations
+    name: Translations
+    href: Instaclause.Domain.Translations.html

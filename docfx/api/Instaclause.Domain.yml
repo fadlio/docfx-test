@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain
+  commentId: N:Instaclause.Domain
+  id: Instaclause.Domain
+  children:
+  - Instaclause.Domain.StampedEntity
+  - Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain
+  nameWithType: Instaclause.Domain
+  fullName: Instaclause.Domain
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.StampedEntity
+  commentId: T:Instaclause.Domain.StampedEntity
+  parent: Instaclause.Domain
+  href: Instaclause.Domain.StampedEntity.html
+  name: StampedEntity
+  nameWithType: StampedEntity
+  fullName: Instaclause.Domain.StampedEntity
+- uid: Instaclause.Domain.TranslatableEntity`1
+  commentId: T:Instaclause.Domain.TranslatableEntity`1
+  href: Instaclause.Domain.TranslatableEntity-1.html
+  name: TranslatableEntity<T>
+  nameWithType: TranslatableEntity<T>
+  fullName: Instaclause.Domain.TranslatableEntity<T>
+  nameWithType.vb: TranslatableEntity(Of T)
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T)
+  name.vb: TranslatableEntity(Of T)
+  spec.csharp:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Instaclause.Domain
+  commentId: N:Instaclause.Domain
+  href: Instaclause.html
+  name: Instaclause.Domain
+  nameWithType: Instaclause.Domain
+  fullName: Instaclause.Domain
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html

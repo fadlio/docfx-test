@@ -1,0 +1,962 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Clauses.ClauseGroup
+  commentId: T:Instaclause.Domain.Clauses.ClauseGroup
+  id: ClauseGroup
+  parent: Instaclause.Domain.Clauses
+  children:
+  - Instaclause.Domain.Clauses.ClauseGroup.ChildGroups
+  - Instaclause.Domain.Clauses.ClauseGroup.Clauses
+  - Instaclause.Domain.Clauses.ClauseGroup.Id
+  - Instaclause.Domain.Clauses.ClauseGroup.Name
+  - Instaclause.Domain.Clauses.ClauseGroup.Parent
+  - Instaclause.Domain.Clauses.ClauseGroup.ParentId
+  langs:
+  - csharp
+  - vb
+  name: ClauseGroup
+  nameWithType: ClauseGroup
+  fullName: Instaclause.Domain.Clauses.ClauseGroup
+  type: Class
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ClauseGroup
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 10
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: >-
+    Represents a group of clauses, allowing for hierarchical organization of clauses within the system.
+
+    Used by the front-end application to organize clauses into a library.
+  example: []
+  syntax:
+    content: 'public class ClauseGroup : TranslatableEntity<ClauseGroup>'
+    content.vb: Public Class ClauseGroup Inherits TranslatableEntity(Of ClauseGroup)
+  inheritance:
+  - System.Object
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  inheritedMembers:
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.BaseLanguageEntityId
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.BaseLanguageEntity
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.LanguageId
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.TranslationStatusId
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.Language
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.TranslationStatus
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.Translations
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Id
+  commentId: P:Instaclause.Domain.Clauses.ClauseGroup.Id
+  id: Id
+  parent: Instaclause.Domain.Clauses.ClauseGroup
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ClauseGroup.Id
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Id
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Id
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 15
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: Gets the identifier for the clause group.
+  example: []
+  syntax:
+    content: public int Id { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Instaclause.Domain.Clauses.ClauseGroup.Id*
+- uid: Instaclause.Domain.Clauses.ClauseGroup.ParentId
+  commentId: P:Instaclause.Domain.Clauses.ClauseGroup.ParentId
+  id: ParentId
+  parent: Instaclause.Domain.Clauses.ClauseGroup
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: ClauseGroup.ParentId
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.ParentId
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ParentId
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 20
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: Gets the identifier of the parent group, if this is a subgroup.
+  example: []
+  syntax:
+    content: public int? ParentId { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property ParentId As Integer?
+  overload: Instaclause.Domain.Clauses.ClauseGroup.ParentId*
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Name
+  commentId: P:Instaclause.Domain.Clauses.ClauseGroup.Name
+  id: Name
+  parent: Instaclause.Domain.Clauses.ClauseGroup
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ClauseGroup.Name
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Name
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Name
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 25
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: Gets the name of the clause group.
+  example: []
+  syntax:
+    content: public required string Name { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Instaclause.Domain.Clauses.ClauseGroup.Name*
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Parent
+  commentId: P:Instaclause.Domain.Clauses.ClauseGroup.Parent
+  id: Parent
+  parent: Instaclause.Domain.Clauses.ClauseGroup
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: ClauseGroup.Parent
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Parent
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Parent
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 32
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: Gets the parent group of this clause group.
+  example: []
+  syntax:
+    content: public ClauseGroup? Parent { get; init; }
+    parameters: []
+    return:
+      type: Instaclause.Domain.Clauses.ClauseGroup
+    content.vb: Public Property Parent As ClauseGroup
+  overload: Instaclause.Domain.Clauses.ClauseGroup.Parent*
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Clauses
+  commentId: P:Instaclause.Domain.Clauses.ClauseGroup.Clauses
+  id: Clauses
+  parent: Instaclause.Domain.Clauses.ClauseGroup
+  langs:
+  - csharp
+  - vb
+  name: Clauses
+  nameWithType: ClauseGroup.Clauses
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Clauses
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Clauses
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 37
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: Gets the collection of clauses within this group.
+  example: []
+  syntax:
+    content: public List<Clause>? Clauses { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Instaclause.Domain.Clauses.Clause}
+    content.vb: Public Property Clauses As List(Of Clause)
+  overload: Instaclause.Domain.Clauses.ClauseGroup.Clauses*
+- uid: Instaclause.Domain.Clauses.ClauseGroup.ChildGroups
+  commentId: P:Instaclause.Domain.Clauses.ClauseGroup.ChildGroups
+  id: ChildGroups
+  parent: Instaclause.Domain.Clauses.ClauseGroup
+  langs:
+  - csharp
+  - vb
+  name: ChildGroups
+  nameWithType: ClauseGroup.ChildGroups
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.ChildGroups
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Clauses/ClauseGroup.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ChildGroups
+    path: ../src/Instaclause.Domain/Clauses/ClauseGroup.cs
+    startLine: 42
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Clauses
+  summary: Gets the collection of child groups under this clause group.
+  example: []
+  syntax:
+    content: public List<ClauseGroup>? ChildGroups { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Instaclause.Domain.Clauses.ClauseGroup}
+    content.vb: Public Property ChildGroups As List(Of ClauseGroup)
+  overload: Instaclause.Domain.Clauses.ClauseGroup.ChildGroups*
+references:
+- uid: Instaclause.Domain.Clauses
+  commentId: N:Instaclause.Domain.Clauses
+  href: Instaclause.html
+  name: Instaclause.Domain.Clauses
+  nameWithType: Instaclause.Domain.Clauses
+  fullName: Instaclause.Domain.Clauses
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Clauses
+    name: Clauses
+    href: Instaclause.Domain.Clauses.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Clauses
+    name: Clauses
+    href: Instaclause.Domain.Clauses.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  commentId: T:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  parent: Instaclause.Domain
+  definition: Instaclause.Domain.TranslatableEntity`1
+  href: Instaclause.Domain.TranslatableEntity-1.html
+  name: TranslatableEntity<ClauseGroup>
+  nameWithType: TranslatableEntity<ClauseGroup>
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup)
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup)
+  name.vb: TranslatableEntity(Of ClauseGroup)
+  spec.csharp:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: <
+  - uid: Instaclause.Domain.Clauses.ClauseGroup
+    name: ClauseGroup
+    href: Instaclause.Domain.Clauses.ClauseGroup.html
+  - name: '>'
+  spec.vb:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.Clauses.ClauseGroup
+    name: ClauseGroup
+    href: Instaclause.Domain.Clauses.ClauseGroup.html
+  - name: )
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.BaseLanguageEntityId
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.BaseLanguageEntityId
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntityId
+  name: BaseLanguageEntityId
+  nameWithType: TranslatableEntity<ClauseGroup>.BaseLanguageEntityId
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.BaseLanguageEntityId
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).BaseLanguageEntityId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).BaseLanguageEntityId
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.BaseLanguageEntity
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.BaseLanguageEntity
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntity
+  name: BaseLanguageEntity
+  nameWithType: TranslatableEntity<ClauseGroup>.BaseLanguageEntity
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.BaseLanguageEntity
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).BaseLanguageEntity
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).BaseLanguageEntity
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.LanguageId
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.LanguageId
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.LanguageId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_LanguageId
+  name: LanguageId
+  nameWithType: TranslatableEntity<ClauseGroup>.LanguageId
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.LanguageId
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).LanguageId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).LanguageId
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.TranslationStatusId
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.TranslationStatusId
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatusId
+  name: TranslationStatusId
+  nameWithType: TranslatableEntity<ClauseGroup>.TranslationStatusId
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.TranslationStatusId
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).TranslationStatusId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).TranslationStatusId
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.Language
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.Language
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.Language
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Language
+  name: Language
+  nameWithType: TranslatableEntity<ClauseGroup>.Language
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.Language
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).Language
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).Language
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.TranslationStatus
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.TranslationStatus
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatus
+  name: TranslationStatus
+  nameWithType: TranslatableEntity<ClauseGroup>.TranslationStatus
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.TranslationStatus
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).TranslationStatus
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).TranslationStatus
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.Translations
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}.Translations
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Clauses.ClauseGroup}
+  definition: Instaclause.Domain.TranslatableEntity`1.Translations
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Translations
+  name: Translations
+  nameWithType: TranslatableEntity<ClauseGroup>.Translations
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Clauses.ClauseGroup>.Translations
+  nameWithType.vb: TranslatableEntity(Of ClauseGroup).Translations
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Clauses.ClauseGroup).Translations
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Instaclause.Domain.TranslatableEntity`1
+  commentId: T:Instaclause.Domain.TranslatableEntity`1
+  href: Instaclause.Domain.TranslatableEntity-1.html
+  name: TranslatableEntity<T>
+  nameWithType: TranslatableEntity<T>
+  fullName: Instaclause.Domain.TranslatableEntity<T>
+  nameWithType.vb: TranslatableEntity(Of T)
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T)
+  name.vb: TranslatableEntity(Of T)
+  spec.csharp:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Instaclause.Domain
+  commentId: N:Instaclause.Domain
+  href: Instaclause.html
+  name: Instaclause.Domain
+  nameWithType: Instaclause.Domain
+  fullName: Instaclause.Domain
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntityId
+  name: BaseLanguageEntityId
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntityId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntityId
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntityId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntityId
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntity
+  name: BaseLanguageEntity
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntity
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntity
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntity
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntity
+- uid: Instaclause.Domain.TranslatableEntity`1.LanguageId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.LanguageId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_LanguageId
+  name: LanguageId
+  nameWithType: TranslatableEntity<T>.LanguageId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.LanguageId
+  nameWithType.vb: TranslatableEntity(Of T).LanguageId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).LanguageId
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatusId
+  name: TranslationStatusId
+  nameWithType: TranslatableEntity<T>.TranslationStatusId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatusId
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatusId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatusId
+- uid: Instaclause.Domain.TranslatableEntity`1.Language
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.Language
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Language
+  name: Language
+  nameWithType: TranslatableEntity<T>.Language
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Language
+  nameWithType.vb: TranslatableEntity(Of T).Language
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Language
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatus
+  name: TranslationStatus
+  nameWithType: TranslatableEntity<T>.TranslationStatus
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatus
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatus
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatus
+- uid: Instaclause.Domain.TranslatableEntity`1.Translations
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.Translations
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Translations
+  name: Translations
+  nameWithType: TranslatableEntity<T>.Translations
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Translations
+  nameWithType.vb: TranslatableEntity(Of T).Translations
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Translations
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Id*
+  commentId: Overload:Instaclause.Domain.Clauses.ClauseGroup.Id
+  href: Instaclause.Domain.Clauses.ClauseGroup.html#Instaclause_Domain_Clauses_ClauseGroup_Id
+  name: Id
+  nameWithType: ClauseGroup.Id
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Instaclause.Domain.Clauses.ClauseGroup.ParentId*
+  commentId: Overload:Instaclause.Domain.Clauses.ClauseGroup.ParentId
+  href: Instaclause.Domain.Clauses.ClauseGroup.html#Instaclause_Domain_Clauses_ClauseGroup_ParentId
+  name: ParentId
+  nameWithType: ClauseGroup.ParentId
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.ParentId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Name*
+  commentId: Overload:Instaclause.Domain.Clauses.ClauseGroup.Name
+  href: Instaclause.Domain.Clauses.ClauseGroup.html#Instaclause_Domain_Clauses_ClauseGroup_Name
+  name: Name
+  nameWithType: ClauseGroup.Name
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Parent*
+  commentId: Overload:Instaclause.Domain.Clauses.ClauseGroup.Parent
+  href: Instaclause.Domain.Clauses.ClauseGroup.html#Instaclause_Domain_Clauses_ClauseGroup_Parent
+  name: Parent
+  nameWithType: ClauseGroup.Parent
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Parent
+- uid: Instaclause.Domain.Clauses.ClauseGroup
+  commentId: T:Instaclause.Domain.Clauses.ClauseGroup
+  parent: Instaclause.Domain.Clauses
+  href: Instaclause.Domain.Clauses.ClauseGroup.html
+  name: ClauseGroup
+  nameWithType: ClauseGroup
+  fullName: Instaclause.Domain.Clauses.ClauseGroup
+- uid: Instaclause.Domain.Clauses.ClauseGroup.Clauses*
+  commentId: Overload:Instaclause.Domain.Clauses.ClauseGroup.Clauses
+  href: Instaclause.Domain.Clauses.ClauseGroup.html#Instaclause_Domain_Clauses_ClauseGroup_Clauses
+  name: Clauses
+  nameWithType: ClauseGroup.Clauses
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.Clauses
+- uid: System.Collections.Generic.List{Instaclause.Domain.Clauses.Clause}
+  commentId: T:System.Collections.Generic.List{Instaclause.Domain.Clauses.Clause}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Clause>
+  nameWithType: List<Clause>
+  fullName: System.Collections.Generic.List<Instaclause.Domain.Clauses.Clause>
+  nameWithType.vb: List(Of Clause)
+  fullName.vb: System.Collections.Generic.List(Of Instaclause.Domain.Clauses.Clause)
+  name.vb: List(Of Clause)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Instaclause.Domain.Clauses.Clause
+    name: Clause
+    href: Instaclause.Domain.Clauses.Clause.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.Clauses.Clause
+    name: Clause
+    href: Instaclause.Domain.Clauses.Clause.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Instaclause.Domain.Clauses.ClauseGroup.ChildGroups*
+  commentId: Overload:Instaclause.Domain.Clauses.ClauseGroup.ChildGroups
+  href: Instaclause.Domain.Clauses.ClauseGroup.html#Instaclause_Domain_Clauses_ClauseGroup_ChildGroups
+  name: ChildGroups
+  nameWithType: ClauseGroup.ChildGroups
+  fullName: Instaclause.Domain.Clauses.ClauseGroup.ChildGroups
+- uid: System.Collections.Generic.List{Instaclause.Domain.Clauses.ClauseGroup}
+  commentId: T:System.Collections.Generic.List{Instaclause.Domain.Clauses.ClauseGroup}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ClauseGroup>
+  nameWithType: List<ClauseGroup>
+  fullName: System.Collections.Generic.List<Instaclause.Domain.Clauses.ClauseGroup>
+  nameWithType.vb: List(Of ClauseGroup)
+  fullName.vb: System.Collections.Generic.List(Of Instaclause.Domain.Clauses.ClauseGroup)
+  name.vb: List(Of ClauseGroup)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Instaclause.Domain.Clauses.ClauseGroup
+    name: ClauseGroup
+    href: Instaclause.Domain.Clauses.ClauseGroup.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.Clauses.ClauseGroup
+    name: ClauseGroup
+    href: Instaclause.Domain.Clauses.ClauseGroup.html
+  - name: )

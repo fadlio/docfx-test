@@ -1,0 +1,824 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.TranslatableEntity`1
+  commentId: T:Instaclause.Domain.TranslatableEntity`1
+  id: TranslatableEntity`1
+  parent: Instaclause.Domain
+  children:
+  - Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  - Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  - Instaclause.Domain.TranslatableEntity`1.Language
+  - Instaclause.Domain.TranslatableEntity`1.LanguageId
+  - Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  - Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  - Instaclause.Domain.TranslatableEntity`1.Translations
+  langs:
+  - csharp
+  - vb
+  name: TranslatableEntity<T>
+  nameWithType: TranslatableEntity<T>
+  fullName: Instaclause.Domain.TranslatableEntity<T>
+  type: Class
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: TranslatableEntity
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 12
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Serves as a base class for entities that support translation, providing properties and relationships necessary for managing translations of content within the system, enhancing multilingual support and localization.
+  example: []
+  syntax:
+    content: public abstract class TranslatableEntity<T>
+    typeParameters:
+    - id: T
+      description: The type of the translatable entity.
+    content.vb: Public MustInherit Class TranslatableEntity(Of T)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Instaclause.Domain.Clauses.Clause
+  - Instaclause.Domain.Clauses.ClauseGroup
+  - Instaclause.Domain.Clauses.Snippet
+  - Instaclause.Domain.ContractModels.ContractModel
+  - Instaclause.Domain.Documents.Document
+  - Instaclause.Domain.Fields.Field
+  - Instaclause.Domain.Fields.FieldGroup
+  - Instaclause.Domain.Fields.FieldOption
+  - Instaclause.Domain.Fields.FieldType
+  - Instaclause.Domain.Fields.FieldTypeUnit
+  - Instaclause.Domain.PartyTypes.PartyType
+  - Instaclause.Domain.Questions.Question
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: TranslatableEntity(Of T)
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T)
+  name.vb: TranslatableEntity(Of T)
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  id: BaseLanguageEntityId
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: BaseLanguageEntityId
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntityId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntityId
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: BaseLanguageEntityId
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 17
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the identifier of the base language entity, used when this instance is a translation of another entity.
+  example: []
+  syntax:
+    content: public int? BaseLanguageEntityId { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property BaseLanguageEntityId As Integer?
+  overload: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId*
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntityId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntityId
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  id: BaseLanguageEntity
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: BaseLanguageEntity
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntity
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntity
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: BaseLanguageEntity
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 22
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the base language entity, linking to the original entity from which this translation was derived.
+  example: []
+  syntax:
+    content: public T? BaseLanguageEntity { get; init; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property BaseLanguageEntity As T
+  overload: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity*
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntity
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntity
+- uid: Instaclause.Domain.TranslatableEntity`1.LanguageId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.LanguageId
+  id: LanguageId
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: LanguageId
+  nameWithType: TranslatableEntity<T>.LanguageId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.LanguageId
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: LanguageId
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 27
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the language identifier, indicating the language of this entity or translation.
+  example: []
+  syntax:
+    content: public int LanguageId { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LanguageId As Integer
+  overload: Instaclause.Domain.TranslatableEntity`1.LanguageId*
+  nameWithType.vb: TranslatableEntity(Of T).LanguageId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).LanguageId
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  id: TranslationStatusId
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: TranslationStatusId
+  nameWithType: TranslatableEntity<T>.TranslationStatusId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatusId
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: TranslationStatusId
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 32
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the translation status identifier, reflecting the current status of the translation in terms of approval and review.
+  example: []
+  syntax:
+    content: public int TranslationStatusId { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TranslationStatusId As Integer
+  overload: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId*
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatusId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatusId
+- uid: Instaclause.Domain.TranslatableEntity`1.Language
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.Language
+  id: Language
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TranslatableEntity<T>.Language
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Language
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Language
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 39
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the language of this entity, providing details on the language used for this instance.
+  example: []
+  syntax:
+    content: public Language? Language { get; init; }
+    parameters: []
+    return:
+      type: Instaclause.Domain.Translations.Language
+    content.vb: Public Property Language As Language
+  overload: Instaclause.Domain.TranslatableEntity`1.Language*
+  nameWithType.vb: TranslatableEntity(Of T).Language
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Language
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  id: TranslationStatus
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: TranslationStatus
+  nameWithType: TranslatableEntity<T>.TranslationStatus
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatus
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: TranslationStatus
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 44
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the translation status, linking to the status details to indicate the review and approval state.
+  example: []
+  syntax:
+    content: public TranslationStatus? TranslationStatus { get; init; }
+    parameters: []
+    return:
+      type: Instaclause.Domain.Translations.TranslationStatus
+    content.vb: Public Property TranslationStatus As TranslationStatus
+  overload: Instaclause.Domain.TranslatableEntity`1.TranslationStatus*
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatus
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatus
+- uid: Instaclause.Domain.TranslatableEntity`1.Translations
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.Translations
+  id: Translations
+  parent: Instaclause.Domain.TranslatableEntity`1
+  langs:
+  - csharp
+  - vb
+  name: Translations
+  nameWithType: TranslatableEntity<T>.Translations
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Translations
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/TranslatableEntity.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Translations
+    path: ../src/Instaclause.Domain/TranslatableEntity.cs
+    startLine: 49
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain
+  summary: Gets the collection of translations of this entity, facilitating management of different language versions of the content.
+  example: []
+  syntax:
+    content: public List<T>? Translations { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Property Translations As List(Of T)
+  overload: Instaclause.Domain.TranslatableEntity`1.Translations*
+  nameWithType.vb: TranslatableEntity(Of T).Translations
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Translations
+references:
+- uid: Instaclause.Domain
+  commentId: N:Instaclause.Domain
+  href: Instaclause.html
+  name: Instaclause.Domain
+  nameWithType: Instaclause.Domain
+  fullName: Instaclause.Domain
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntityId
+  name: BaseLanguageEntityId
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntityId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntityId
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntityId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntityId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntity
+  name: BaseLanguageEntity
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntity
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntity
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntity
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntity
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Instaclause.Domain.TranslatableEntity`1.LanguageId*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.LanguageId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_LanguageId
+  name: LanguageId
+  nameWithType: TranslatableEntity<T>.LanguageId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.LanguageId
+  nameWithType.vb: TranslatableEntity(Of T).LanguageId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).LanguageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatusId
+  name: TranslationStatusId
+  nameWithType: TranslatableEntity<T>.TranslationStatusId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatusId
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatusId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatusId
+- uid: Instaclause.Domain.TranslatableEntity`1.Language*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.Language
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Language
+  name: Language
+  nameWithType: TranslatableEntity<T>.Language
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Language
+  nameWithType.vb: TranslatableEntity(Of T).Language
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Language
+- uid: Instaclause.Domain.Translations.Language
+  commentId: T:Instaclause.Domain.Translations.Language
+  parent: Instaclause.Domain.Translations
+  href: Instaclause.Domain.Translations.Language.html
+  name: Language
+  nameWithType: Language
+  fullName: Instaclause.Domain.Translations.Language
+- uid: Instaclause.Domain.Translations
+  commentId: N:Instaclause.Domain.Translations
+  href: Instaclause.html
+  name: Instaclause.Domain.Translations
+  nameWithType: Instaclause.Domain.Translations
+  fullName: Instaclause.Domain.Translations
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Translations
+    name: Translations
+    href: Instaclause.Domain.Translations.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Translations
+    name: Translations
+    href: Instaclause.Domain.Translations.html
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatus*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatus
+  name: TranslationStatus
+  nameWithType: TranslatableEntity<T>.TranslationStatus
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatus
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatus
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatus
+- uid: Instaclause.Domain.Translations.TranslationStatus
+  commentId: T:Instaclause.Domain.Translations.TranslationStatus
+  parent: Instaclause.Domain.Translations
+  href: Instaclause.Domain.Translations.TranslationStatus.html
+  name: TranslationStatus
+  nameWithType: TranslationStatus
+  fullName: Instaclause.Domain.Translations.TranslationStatus
+- uid: Instaclause.Domain.TranslatableEntity`1.Translations*
+  commentId: Overload:Instaclause.Domain.TranslatableEntity`1.Translations
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Translations
+  name: Translations
+  nameWithType: TranslatableEntity<T>.Translations
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Translations
+  nameWithType.vb: TranslatableEntity(Of T).Translations
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Translations
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -1,0 +1,1099 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.ContractModels.ContractModelParty
+  commentId: T:Instaclause.Domain.ContractModels.ContractModelParty
+  id: ContractModelParty
+  parent: Instaclause.Domain.ContractModels
+  children:
+  - Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields
+  - Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds
+  - Instaclause.Domain.ContractModels.ContractModelParty.Children
+  - Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData
+  - Instaclause.Domain.ContractModels.ContractModelParty.Condition
+  - Instaclause.Domain.ContractModels.ContractModelParty.ContractModel
+  - Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId
+  - Instaclause.Domain.ContractModels.ContractModelParty.Id
+  - Instaclause.Domain.ContractModels.ContractModelParty.Identifier
+  - Instaclause.Domain.ContractModels.ContractModelParty.Optional
+  - Instaclause.Domain.ContractModels.ContractModelParty.ParentParty
+  - Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId
+  - Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData
+  - Instaclause.Domain.ContractModels.ContractModelParty.Title
+  langs:
+  - csharp
+  - vb
+  name: ContractModelParty
+  nameWithType: ContractModelParty
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty
+  type: Class
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ContractModelParty
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 12
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: >-
+    Represents a party within a contract model, defining the roles and parties involved in the contract.
+
+    Is possible to define a template for each type of party and what types are allowed.
+
+    The template is used when the meta field _template is used in a clause template data. If the template is not set
+
+    the default template, defined in PartyType, is used.
+  example: []
+  syntax:
+    content: public class ContractModelParty
+    content.vb: Public Class ContractModelParty
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Id
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.Id
+  id: Id
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ContractModelParty.Id
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Id
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Id
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 17
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the identifier for the contract model party.
+  example: []
+  syntax:
+    content: public int Id { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.Id*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId
+  id: ContractModelId
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: ContractModelId
+  nameWithType: ContractModelParty.ContractModelId
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ContractModelId
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 22
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the identifier of the contract model to which this party belongs.
+  example: []
+  syntax:
+    content: public int ContractModelId { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContractModelId As Integer
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Title
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.Title
+  id: Title
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ContractModelParty.Title
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Title
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Title
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 27
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the title of the party, such as "Seller" or "Buyer".
+  example: []
+  syntax:
+    content: public required string Title { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.Title*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Identifier
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.Identifier
+  id: Identifier
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: ContractModelParty.Identifier
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Identifier
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Identifier
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 32
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the identifier used to uniquely identify the party within a contract model.
+  example: []
+  syntax:
+    content: public required string Identifier { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Identifier As String
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.Identifier*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Optional
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.Optional
+  id: Optional
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: ContractModelParty.Optional
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Optional
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Optional
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 37
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets a value indicating whether this party is optional within the contract model.
+  example: []
+  syntax:
+    content: public bool Optional { get; init; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property [Optional] As Boolean
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.Optional*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Condition
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.Condition
+  id: Condition
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: Condition
+  nameWithType: ContractModelParty.Condition
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Condition
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Condition
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 42
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the condition under which this party is applicable or required.
+  example: []
+  syntax:
+    content: public string? Condition { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Condition As String
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.Condition*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData
+  id: PersonTemplateData
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: PersonTemplateData
+  nameWithType: ContractModelParty.PersonTemplateData
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: PersonTemplateData
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 47
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the template data for a person associated with this party.
+  example: []
+  syntax:
+    content: public string? PersonTemplateData { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonTemplateData As String
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData
+  id: CompanyTemplateData
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: CompanyTemplateData
+  nameWithType: ContractModelParty.CompanyTemplateData
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: CompanyTemplateData
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 52
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the template data for a company associated with this party.
+  example: []
+  syntax:
+    content: public string? CompanyTemplateData { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CompanyTemplateData As String
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId
+  id: ParentPartyId
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: ParentPartyId
+  nameWithType: ContractModelParty.ParentPartyId
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ParentPartyId
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 57
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the identifier for the parent party, allowing for hierarchical structuring of party relationships.
+  example: []
+  syntax:
+    content: public int? ParentPartyId { get; init; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property ParentPartyId As Integer?
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds
+  id: AllowedPartyTypeIds
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: AllowedPartyTypeIds
+  nameWithType: ContractModelParty.AllowedPartyTypeIds
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: AllowedPartyTypeIds
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 62
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the allowed party type identifiers, defining the types of entities that can fulfill the role of this party.
+  example: []
+  syntax:
+    content: public required int[] AllowedPartyTypeIds { get; init; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property AllowedPartyTypeIds As Integer()
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ContractModel
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.ContractModel
+  id: ContractModel
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: ContractModel
+  nameWithType: ContractModelParty.ContractModel
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ContractModel
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ContractModel
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 69
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the contract model to which this party belongs.
+  example: []
+  syntax:
+    content: public ContractModel? ContractModel { get; init; }
+    parameters: []
+    return:
+      type: Instaclause.Domain.ContractModels.ContractModel
+    content.vb: Public Property ContractModel As ContractModel
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.ContractModel*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ParentParty
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.ParentParty
+  id: ParentParty
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: ParentParty
+  nameWithType: ContractModelParty.ParentParty
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ParentParty
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: ParentParty
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 74
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the parent party of this contract model party.
+  example: []
+  syntax:
+    content: public ContractModelParty? ParentParty { get; init; }
+    parameters: []
+    return:
+      type: Instaclause.Domain.ContractModels.ContractModelParty
+    content.vb: Public Property ParentParty As ContractModelParty
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.ParentParty*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields
+  id: AdditionalFields
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: AdditionalFields
+  nameWithType: ContractModelParty.AdditionalFields
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: AdditionalFields
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 79
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the collection of additional fields associated with this party.
+  example: []
+  syntax:
+    content: public List<ContractModelPartyAdditionalField>? AdditionalFields { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField}
+    content.vb: Public Property AdditionalFields As List(Of ContractModelPartyAdditionalField)
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields*
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Children
+  commentId: P:Instaclause.Domain.ContractModels.ContractModelParty.Children
+  id: Children
+  parent: Instaclause.Domain.ContractModels.ContractModelParty
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: ContractModelParty.Children
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Children
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Children
+    path: ../src/Instaclause.Domain/ContractModels/ContractModelParty.cs
+    startLine: 84
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.ContractModels
+  summary: Gets the collection of child parties under this contract model party.
+  example: []
+  syntax:
+    content: public List<ContractModelParty>? Children { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Instaclause.Domain.ContractModels.ContractModelParty}
+    content.vb: Public Property Children As List(Of ContractModelParty)
+  overload: Instaclause.Domain.ContractModels.ContractModelParty.Children*
+references:
+- uid: Instaclause.Domain.ContractModels
+  commentId: N:Instaclause.Domain.ContractModels
+  href: Instaclause.html
+  name: Instaclause.Domain.ContractModels
+  nameWithType: Instaclause.Domain.ContractModels
+  fullName: Instaclause.Domain.ContractModels
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.ContractModels
+    name: ContractModels
+    href: Instaclause.Domain.ContractModels.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.ContractModels
+    name: ContractModels
+    href: Instaclause.Domain.ContractModels.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Id*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.Id
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_Id
+  name: Id
+  nameWithType: ContractModelParty.Id
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_ContractModelId
+  name: ContractModelId
+  nameWithType: ContractModelParty.ContractModelId
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ContractModelId
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Title*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.Title
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_Title
+  name: Title
+  nameWithType: ContractModelParty.Title
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Identifier*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.Identifier
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_Identifier
+  name: Identifier
+  nameWithType: ContractModelParty.Identifier
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Identifier
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Optional*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.Optional
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_Optional
+  name: Optional
+  nameWithType: ContractModelParty.Optional
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Optional
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Condition*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.Condition
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_Condition
+  name: Condition
+  nameWithType: ContractModelParty.Condition
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Condition
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_PersonTemplateData
+  name: PersonTemplateData
+  nameWithType: ContractModelParty.PersonTemplateData
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.PersonTemplateData
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_CompanyTemplateData
+  name: CompanyTemplateData
+  nameWithType: ContractModelParty.CompanyTemplateData
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.CompanyTemplateData
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_ParentPartyId
+  name: ParentPartyId
+  nameWithType: ContractModelParty.ParentPartyId
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ParentPartyId
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_AllowedPartyTypeIds
+  name: AllowedPartyTypeIds
+  nameWithType: ContractModelParty.AllowedPartyTypeIds
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.AllowedPartyTypeIds
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ContractModel*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.ContractModel
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_ContractModel
+  name: ContractModel
+  nameWithType: ContractModelParty.ContractModel
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ContractModel
+- uid: Instaclause.Domain.ContractModels.ContractModel
+  commentId: T:Instaclause.Domain.ContractModels.ContractModel
+  parent: Instaclause.Domain.ContractModels
+  href: Instaclause.Domain.ContractModels.ContractModel.html
+  name: ContractModel
+  nameWithType: ContractModel
+  fullName: Instaclause.Domain.ContractModels.ContractModel
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.ParentParty*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.ParentParty
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_ParentParty
+  name: ParentParty
+  nameWithType: ContractModelParty.ParentParty
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.ParentParty
+- uid: Instaclause.Domain.ContractModels.ContractModelParty
+  commentId: T:Instaclause.Domain.ContractModels.ContractModelParty
+  parent: Instaclause.Domain.ContractModels
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html
+  name: ContractModelParty
+  nameWithType: ContractModelParty
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_AdditionalFields
+  name: AdditionalFields
+  nameWithType: ContractModelParty.AdditionalFields
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.AdditionalFields
+- uid: System.Collections.Generic.List{Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField}
+  commentId: T:System.Collections.Generic.List{Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ContractModelPartyAdditionalField>
+  nameWithType: List<ContractModelPartyAdditionalField>
+  fullName: System.Collections.Generic.List<Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField>
+  nameWithType.vb: List(Of ContractModelPartyAdditionalField)
+  fullName.vb: System.Collections.Generic.List(Of Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField)
+  name.vb: List(Of ContractModelPartyAdditionalField)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField
+    name: ContractModelPartyAdditionalField
+    href: Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField
+    name: ContractModelPartyAdditionalField
+    href: Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Instaclause.Domain.ContractModels.ContractModelParty.Children*
+  commentId: Overload:Instaclause.Domain.ContractModels.ContractModelParty.Children
+  href: Instaclause.Domain.ContractModels.ContractModelParty.html#Instaclause_Domain_ContractModels_ContractModelParty_Children
+  name: Children
+  nameWithType: ContractModelParty.Children
+  fullName: Instaclause.Domain.ContractModels.ContractModelParty.Children
+- uid: System.Collections.Generic.List{Instaclause.Domain.ContractModels.ContractModelParty}
+  commentId: T:System.Collections.Generic.List{Instaclause.Domain.ContractModels.ContractModelParty}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<ContractModelParty>
+  nameWithType: List<ContractModelParty>
+  fullName: System.Collections.Generic.List<Instaclause.Domain.ContractModels.ContractModelParty>
+  nameWithType.vb: List(Of ContractModelParty)
+  fullName.vb: System.Collections.Generic.List(Of Instaclause.Domain.ContractModels.ContractModelParty)
+  name.vb: List(Of ContractModelParty)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Instaclause.Domain.ContractModels.ContractModelParty
+    name: ContractModelParty
+    href: Instaclause.Domain.ContractModels.ContractModelParty.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.ContractModels.ContractModelParty
+    name: ContractModelParty
+    href: Instaclause.Domain.ContractModels.ContractModelParty.html
+  - name: )

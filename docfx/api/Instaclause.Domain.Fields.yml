@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Fields
+  commentId: N:Instaclause.Domain.Fields
+  id: Instaclause.Domain.Fields
+  children:
+  - Instaclause.Domain.Fields.Field
+  - Instaclause.Domain.Fields.FieldGroup
+  - Instaclause.Domain.Fields.FieldOption
+  - Instaclause.Domain.Fields.FieldType
+  - Instaclause.Domain.Fields.FieldTypeFieldTypeUnit
+  - Instaclause.Domain.Fields.FieldTypeUnit
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain.Fields
+  nameWithType: Instaclause.Domain.Fields
+  fullName: Instaclause.Domain.Fields
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.Fields.Field
+  commentId: T:Instaclause.Domain.Fields.Field
+  parent: Instaclause.Domain.Fields
+  href: Instaclause.Domain.Fields.Field.html
+  name: Field
+  nameWithType: Field
+  fullName: Instaclause.Domain.Fields.Field
+- uid: Instaclause.Domain.Fields.FieldGroup
+  commentId: T:Instaclause.Domain.Fields.FieldGroup
+  parent: Instaclause.Domain.Fields
+  href: Instaclause.Domain.Fields.FieldGroup.html
+  name: FieldGroup
+  nameWithType: FieldGroup
+  fullName: Instaclause.Domain.Fields.FieldGroup
+- uid: Instaclause.Domain.Fields.FieldOption
+  commentId: T:Instaclause.Domain.Fields.FieldOption
+  parent: Instaclause.Domain.Fields
+  href: Instaclause.Domain.Fields.FieldOption.html
+  name: FieldOption
+  nameWithType: FieldOption
+  fullName: Instaclause.Domain.Fields.FieldOption
+- uid: Instaclause.Domain.Fields.FieldType
+  commentId: T:Instaclause.Domain.Fields.FieldType
+  parent: Instaclause.Domain.Fields
+  href: Instaclause.Domain.Fields.FieldType.html
+  name: FieldType
+  nameWithType: FieldType
+  fullName: Instaclause.Domain.Fields.FieldType
+- uid: Instaclause.Domain.Fields.FieldTypeFieldTypeUnit
+  commentId: T:Instaclause.Domain.Fields.FieldTypeFieldTypeUnit
+  href: Instaclause.Domain.Fields.FieldTypeFieldTypeUnit.html
+  name: FieldTypeFieldTypeUnit
+  nameWithType: FieldTypeFieldTypeUnit
+  fullName: Instaclause.Domain.Fields.FieldTypeFieldTypeUnit
+- uid: Instaclause.Domain.Fields.FieldTypeUnit
+  commentId: T:Instaclause.Domain.Fields.FieldTypeUnit
+  parent: Instaclause.Domain.Fields
+  href: Instaclause.Domain.Fields.FieldTypeUnit.html
+  name: FieldTypeUnit
+  nameWithType: FieldTypeUnit
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit
+- uid: Instaclause.Domain.Fields
+  commentId: N:Instaclause.Domain.Fields
+  href: Instaclause.html
+  name: Instaclause.Domain.Fields
+  nameWithType: Instaclause.Domain.Fields
+  fullName: Instaclause.Domain.Fields
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Fields
+    name: Fields
+    href: Instaclause.Domain.Fields.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Fields
+    name: Fields
+    href: Instaclause.Domain.Fields.html

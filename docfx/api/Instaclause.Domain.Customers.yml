@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Customers
+  commentId: N:Instaclause.Domain.Customers
+  id: Instaclause.Domain.Customers
+  children:
+  - Instaclause.Domain.Customers.Customer
+  - Instaclause.Domain.Customers.CustomerParty
+  - Instaclause.Domain.Customers.CustomerPartyFieldValue
+  - Instaclause.Domain.Customers.User
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain.Customers
+  nameWithType: Instaclause.Domain.Customers
+  fullName: Instaclause.Domain.Customers
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.Customers.Customer
+  commentId: T:Instaclause.Domain.Customers.Customer
+  parent: Instaclause.Domain.Customers
+  href: Instaclause.Domain.Customers.Customer.html
+  name: Customer
+  nameWithType: Customer
+  fullName: Instaclause.Domain.Customers.Customer
+- uid: Instaclause.Domain.Customers.CustomerParty
+  commentId: T:Instaclause.Domain.Customers.CustomerParty
+  parent: Instaclause.Domain.Customers
+  href: Instaclause.Domain.Customers.CustomerParty.html
+  name: CustomerParty
+  nameWithType: CustomerParty
+  fullName: Instaclause.Domain.Customers.CustomerParty
+- uid: Instaclause.Domain.Customers.CustomerPartyFieldValue
+  commentId: T:Instaclause.Domain.Customers.CustomerPartyFieldValue
+  href: Instaclause.Domain.Customers.CustomerPartyFieldValue.html
+  name: CustomerPartyFieldValue
+  nameWithType: CustomerPartyFieldValue
+  fullName: Instaclause.Domain.Customers.CustomerPartyFieldValue
+- uid: Instaclause.Domain.Customers.User
+  commentId: T:Instaclause.Domain.Customers.User
+  href: Instaclause.Domain.Customers.User.html
+  name: User
+  nameWithType: User
+  fullName: Instaclause.Domain.Customers.User
+- uid: Instaclause.Domain.Customers
+  commentId: N:Instaclause.Domain.Customers
+  href: Instaclause.html
+  name: Instaclause.Domain.Customers
+  nameWithType: Instaclause.Domain.Customers
+  fullName: Instaclause.Domain.Customers
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Customers
+    name: Customers
+    href: Instaclause.Domain.Customers.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Customers
+    name: Customers
+    href: Instaclause.Domain.Customers.html

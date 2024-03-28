@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Questions
+  commentId: N:Instaclause.Domain.Questions
+  id: Instaclause.Domain.Questions
+  children:
+  - Instaclause.Domain.Questions.Question
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain.Questions
+  nameWithType: Instaclause.Domain.Questions
+  fullName: Instaclause.Domain.Questions
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.Questions.Question
+  commentId: T:Instaclause.Domain.Questions.Question
+  parent: Instaclause.Domain.Questions
+  href: Instaclause.Domain.Questions.Question.html
+  name: Question
+  nameWithType: Question
+  fullName: Instaclause.Domain.Questions.Question
+- uid: Instaclause.Domain.Questions
+  commentId: N:Instaclause.Domain.Questions
+  href: Instaclause.html
+  name: Instaclause.Domain.Questions
+  nameWithType: Instaclause.Domain.Questions
+  fullName: Instaclause.Domain.Questions
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Questions
+    name: Questions
+    href: Instaclause.Domain.Questions.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Questions
+    name: Questions
+    href: Instaclause.Domain.Questions.html

@@ -1,0 +1,8 @@
+- name: Domain
+  href: domain.md
+  
+- name: Solution
+  href: solution/toc.yml
+  
+- name: Dependencies
+  href: dependencies.md

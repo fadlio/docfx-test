@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Clauses
+  commentId: N:Instaclause.Domain.Clauses
+  id: Instaclause.Domain.Clauses
+  children:
+  - Instaclause.Domain.Clauses.Clause
+  - Instaclause.Domain.Clauses.ClauseField
+  - Instaclause.Domain.Clauses.ClauseGroup
+  - Instaclause.Domain.Clauses.Snippet
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain.Clauses
+  nameWithType: Instaclause.Domain.Clauses
+  fullName: Instaclause.Domain.Clauses
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.Clauses.Clause
+  commentId: T:Instaclause.Domain.Clauses.Clause
+  parent: Instaclause.Domain.Clauses
+  href: Instaclause.Domain.Clauses.Clause.html
+  name: Clause
+  nameWithType: Clause
+  fullName: Instaclause.Domain.Clauses.Clause
+- uid: Instaclause.Domain.Clauses.ClauseField
+  commentId: T:Instaclause.Domain.Clauses.ClauseField
+  parent: Instaclause.Domain.Clauses
+  href: Instaclause.Domain.Clauses.ClauseField.html
+  name: ClauseField
+  nameWithType: ClauseField
+  fullName: Instaclause.Domain.Clauses.ClauseField
+- uid: Instaclause.Domain.Clauses.ClauseGroup
+  commentId: T:Instaclause.Domain.Clauses.ClauseGroup
+  parent: Instaclause.Domain.Clauses
+  href: Instaclause.Domain.Clauses.ClauseGroup.html
+  name: ClauseGroup
+  nameWithType: ClauseGroup
+  fullName: Instaclause.Domain.Clauses.ClauseGroup
+- uid: Instaclause.Domain.Clauses.Snippet
+  commentId: T:Instaclause.Domain.Clauses.Snippet
+  href: Instaclause.Domain.Clauses.Snippet.html
+  name: Snippet
+  nameWithType: Snippet
+  fullName: Instaclause.Domain.Clauses.Snippet
+- uid: Instaclause.Domain.Clauses
+  commentId: N:Instaclause.Domain.Clauses
+  href: Instaclause.html
+  name: Instaclause.Domain.Clauses
+  nameWithType: Instaclause.Domain.Clauses
+  fullName: Instaclause.Domain.Clauses
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Clauses
+    name: Clauses
+    href: Instaclause.Domain.Clauses.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Clauses
+    name: Clauses
+    href: Instaclause.Domain.Clauses.html

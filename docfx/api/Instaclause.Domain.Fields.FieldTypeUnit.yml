@@ -1,0 +1,792 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Fields.FieldTypeUnit
+  commentId: T:Instaclause.Domain.Fields.FieldTypeUnit
+  id: FieldTypeUnit
+  parent: Instaclause.Domain.Fields
+  children:
+  - Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes
+  - Instaclause.Domain.Fields.FieldTypeUnit.Id
+  - Instaclause.Domain.Fields.FieldTypeUnit.Name
+  - Instaclause.Domain.Fields.FieldTypeUnit.Unit
+  langs:
+  - csharp
+  - vb
+  name: FieldTypeUnit
+  nameWithType: FieldTypeUnit
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit
+  type: Class
+  source:
+    remote:
+      path: src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: FieldTypeUnit
+    path: ../src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+    startLine: 9
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Fields
+  summary: Represents a unit of measurement or categorization for field types that require or support specifying a unit, such as length, weight, currency, etc.
+  example: []
+  syntax:
+    content: 'public class FieldTypeUnit : TranslatableEntity<FieldTypeUnit>'
+    content.vb: Public Class FieldTypeUnit Inherits TranslatableEntity(Of FieldTypeUnit)
+  inheritance:
+  - System.Object
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  inheritedMembers:
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.BaseLanguageEntityId
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.BaseLanguageEntity
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.LanguageId
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.TranslationStatusId
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.Language
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.TranslationStatus
+  - Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.Translations
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.Id
+  commentId: P:Instaclause.Domain.Fields.FieldTypeUnit.Id
+  id: Id
+  parent: Instaclause.Domain.Fields.FieldTypeUnit
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FieldTypeUnit.Id
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.Id
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Id
+    path: ../src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+    startLine: 14
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Fields
+  summary: Gets the identifier for the field type unit.
+  example: []
+  syntax:
+    content: public int Id { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Instaclause.Domain.Fields.FieldTypeUnit.Id*
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.Name
+  commentId: P:Instaclause.Domain.Fields.FieldTypeUnit.Name
+  id: Name
+  parent: Instaclause.Domain.Fields.FieldTypeUnit
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FieldTypeUnit.Name
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.Name
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Name
+    path: ../src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+    startLine: 19
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Fields
+  summary: Gets the name of the unit, used for display and identification purposes.
+  example: []
+  syntax:
+    content: public required string Name { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Instaclause.Domain.Fields.FieldTypeUnit.Name*
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.Unit
+  commentId: P:Instaclause.Domain.Fields.FieldTypeUnit.Unit
+  id: Unit
+  parent: Instaclause.Domain.Fields.FieldTypeUnit
+  langs:
+  - csharp
+  - vb
+  name: Unit
+  nameWithType: FieldTypeUnit.Unit
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.Unit
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: Unit
+    path: ../src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+    startLine: 24
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Fields
+  summary: Gets the symbol or abbreviation for the unit, used for compact display purposes.
+  example: []
+  syntax:
+    content: public required string Unit { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Unit As String
+  overload: Instaclause.Domain.Fields.FieldTypeUnit.Unit*
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes
+  commentId: P:Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes
+  id: FieldTypes
+  parent: Instaclause.Domain.Fields.FieldTypeUnit
+  langs:
+  - csharp
+  - vb
+  name: FieldTypes
+  nameWithType: FieldTypeUnit.FieldTypes
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes
+  type: Property
+  source:
+    remote:
+      path: src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+      branch: master
+      repo: https://github.com/Instaclause/instaclause-platform.git
+    id: FieldTypes
+    path: ../src/Instaclause.Domain/Fields/FieldTypeUnit.cs
+    startLine: 31
+  assemblies:
+  - Instaclause.Domain
+  namespace: Instaclause.Domain.Fields
+  summary: Gets the collection of field types associated with this unit, linking it to the field types that can use this unit.
+  example: []
+  syntax:
+    content: public List<FieldType>? FieldTypes { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Instaclause.Domain.Fields.FieldType}
+    content.vb: Public Property FieldTypes As List(Of FieldType)
+  overload: Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes*
+references:
+- uid: Instaclause.Domain.Fields
+  commentId: N:Instaclause.Domain.Fields
+  href: Instaclause.html
+  name: Instaclause.Domain.Fields
+  nameWithType: Instaclause.Domain.Fields
+  fullName: Instaclause.Domain.Fields
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Fields
+    name: Fields
+    href: Instaclause.Domain.Fields.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Fields
+    name: Fields
+    href: Instaclause.Domain.Fields.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  commentId: T:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  parent: Instaclause.Domain
+  definition: Instaclause.Domain.TranslatableEntity`1
+  href: Instaclause.Domain.TranslatableEntity-1.html
+  name: TranslatableEntity<FieldTypeUnit>
+  nameWithType: TranslatableEntity<FieldTypeUnit>
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit)
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit)
+  name.vb: TranslatableEntity(Of FieldTypeUnit)
+  spec.csharp:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: <
+  - uid: Instaclause.Domain.Fields.FieldTypeUnit
+    name: FieldTypeUnit
+    href: Instaclause.Domain.Fields.FieldTypeUnit.html
+  - name: '>'
+  spec.vb:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.Fields.FieldTypeUnit
+    name: FieldTypeUnit
+    href: Instaclause.Domain.Fields.FieldTypeUnit.html
+  - name: )
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.BaseLanguageEntityId
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.BaseLanguageEntityId
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntityId
+  name: BaseLanguageEntityId
+  nameWithType: TranslatableEntity<FieldTypeUnit>.BaseLanguageEntityId
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.BaseLanguageEntityId
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).BaseLanguageEntityId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).BaseLanguageEntityId
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.BaseLanguageEntity
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.BaseLanguageEntity
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntity
+  name: BaseLanguageEntity
+  nameWithType: TranslatableEntity<FieldTypeUnit>.BaseLanguageEntity
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.BaseLanguageEntity
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).BaseLanguageEntity
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).BaseLanguageEntity
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.LanguageId
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.LanguageId
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.LanguageId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_LanguageId
+  name: LanguageId
+  nameWithType: TranslatableEntity<FieldTypeUnit>.LanguageId
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.LanguageId
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).LanguageId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).LanguageId
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.TranslationStatusId
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.TranslationStatusId
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatusId
+  name: TranslationStatusId
+  nameWithType: TranslatableEntity<FieldTypeUnit>.TranslationStatusId
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.TranslationStatusId
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).TranslationStatusId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).TranslationStatusId
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.Language
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.Language
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.Language
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Language
+  name: Language
+  nameWithType: TranslatableEntity<FieldTypeUnit>.Language
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.Language
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).Language
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).Language
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.TranslationStatus
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.TranslationStatus
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatus
+  name: TranslationStatus
+  nameWithType: TranslatableEntity<FieldTypeUnit>.TranslationStatus
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.TranslationStatus
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).TranslationStatus
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).TranslationStatus
+- uid: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.Translations
+  commentId: P:Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}.Translations
+  parent: Instaclause.Domain.TranslatableEntity{Instaclause.Domain.Fields.FieldTypeUnit}
+  definition: Instaclause.Domain.TranslatableEntity`1.Translations
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Translations
+  name: Translations
+  nameWithType: TranslatableEntity<FieldTypeUnit>.Translations
+  fullName: Instaclause.Domain.TranslatableEntity<Instaclause.Domain.Fields.FieldTypeUnit>.Translations
+  nameWithType.vb: TranslatableEntity(Of FieldTypeUnit).Translations
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of Instaclause.Domain.Fields.FieldTypeUnit).Translations
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Instaclause.Domain.TranslatableEntity`1
+  commentId: T:Instaclause.Domain.TranslatableEntity`1
+  href: Instaclause.Domain.TranslatableEntity-1.html
+  name: TranslatableEntity<T>
+  nameWithType: TranslatableEntity<T>
+  fullName: Instaclause.Domain.TranslatableEntity<T>
+  nameWithType.vb: TranslatableEntity(Of T)
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T)
+  name.vb: TranslatableEntity(Of T)
+  spec.csharp:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Instaclause.Domain.TranslatableEntity`1
+    name: TranslatableEntity
+    href: Instaclause.Domain.TranslatableEntity-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Instaclause.Domain
+  commentId: N:Instaclause.Domain
+  href: Instaclause.html
+  name: Instaclause.Domain
+  nameWithType: Instaclause.Domain
+  fullName: Instaclause.Domain
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntityId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntityId
+  name: BaseLanguageEntityId
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntityId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntityId
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntityId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntityId
+- uid: Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.BaseLanguageEntity
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntity
+  name: BaseLanguageEntity
+  nameWithType: TranslatableEntity<T>.BaseLanguageEntity
+  fullName: Instaclause.Domain.TranslatableEntity<T>.BaseLanguageEntity
+  nameWithType.vb: TranslatableEntity(Of T).BaseLanguageEntity
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).BaseLanguageEntity
+- uid: Instaclause.Domain.TranslatableEntity`1.LanguageId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.LanguageId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_LanguageId
+  name: LanguageId
+  nameWithType: TranslatableEntity<T>.LanguageId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.LanguageId
+  nameWithType.vb: TranslatableEntity(Of T).LanguageId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).LanguageId
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.TranslationStatusId
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatusId
+  name: TranslationStatusId
+  nameWithType: TranslatableEntity<T>.TranslationStatusId
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatusId
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatusId
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatusId
+- uid: Instaclause.Domain.TranslatableEntity`1.Language
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.Language
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Language
+  name: Language
+  nameWithType: TranslatableEntity<T>.Language
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Language
+  nameWithType.vb: TranslatableEntity(Of T).Language
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Language
+- uid: Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.TranslationStatus
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatus
+  name: TranslationStatus
+  nameWithType: TranslatableEntity<T>.TranslationStatus
+  fullName: Instaclause.Domain.TranslatableEntity<T>.TranslationStatus
+  nameWithType.vb: TranslatableEntity(Of T).TranslationStatus
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).TranslationStatus
+- uid: Instaclause.Domain.TranslatableEntity`1.Translations
+  commentId: P:Instaclause.Domain.TranslatableEntity`1.Translations
+  href: Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Translations
+  name: Translations
+  nameWithType: TranslatableEntity<T>.Translations
+  fullName: Instaclause.Domain.TranslatableEntity<T>.Translations
+  nameWithType.vb: TranslatableEntity(Of T).Translations
+  fullName.vb: Instaclause.Domain.TranslatableEntity(Of T).Translations
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.Id*
+  commentId: Overload:Instaclause.Domain.Fields.FieldTypeUnit.Id
+  href: Instaclause.Domain.Fields.FieldTypeUnit.html#Instaclause_Domain_Fields_FieldTypeUnit_Id
+  name: Id
+  nameWithType: FieldTypeUnit.Id
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.Name*
+  commentId: Overload:Instaclause.Domain.Fields.FieldTypeUnit.Name
+  href: Instaclause.Domain.Fields.FieldTypeUnit.html#Instaclause_Domain_Fields_FieldTypeUnit_Name
+  name: Name
+  nameWithType: FieldTypeUnit.Name
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.Unit*
+  commentId: Overload:Instaclause.Domain.Fields.FieldTypeUnit.Unit
+  href: Instaclause.Domain.Fields.FieldTypeUnit.html#Instaclause_Domain_Fields_FieldTypeUnit_Unit
+  name: Unit
+  nameWithType: FieldTypeUnit.Unit
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.Unit
+- uid: Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes*
+  commentId: Overload:Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes
+  href: Instaclause.Domain.Fields.FieldTypeUnit.html#Instaclause_Domain_Fields_FieldTypeUnit_FieldTypes
+  name: FieldTypes
+  nameWithType: FieldTypeUnit.FieldTypes
+  fullName: Instaclause.Domain.Fields.FieldTypeUnit.FieldTypes
+- uid: System.Collections.Generic.List{Instaclause.Domain.Fields.FieldType}
+  commentId: T:System.Collections.Generic.List{Instaclause.Domain.Fields.FieldType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<FieldType>
+  nameWithType: List<FieldType>
+  fullName: System.Collections.Generic.List<Instaclause.Domain.Fields.FieldType>
+  nameWithType.vb: List(Of FieldType)
+  fullName.vb: System.Collections.Generic.List(Of Instaclause.Domain.Fields.FieldType)
+  name.vb: List(Of FieldType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Instaclause.Domain.Fields.FieldType
+    name: FieldType
+    href: Instaclause.Domain.Fields.FieldType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Instaclause.Domain.Fields.FieldType
+    name: FieldType
+    href: Instaclause.Domain.Fields.FieldType.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

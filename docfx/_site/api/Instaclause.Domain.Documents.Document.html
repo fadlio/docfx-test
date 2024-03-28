@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Document </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Document ">
+      
+      <meta name="description" content="Represents a document within a model. The document is a collection of clauses and is what orchestrates the clauses into a coherent document. It&#39;s the equivalent of the old system&#39;s Google Docs templates.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Instaclause/instaclause-platform/new/master/apiSpec/new?filename=Instaclause_Domain_Documents_Document.md&amp;value=---%0Auid%3A%20Instaclause.Domain.Documents.Document%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Instaclause.Domain.Documents.Document">
+
+
+
+  <h1 id="Instaclause_Domain_Documents_Document" data-uid="Instaclause.Domain.Documents.Document" class="text-break">
+Class Document  <a class="header-action link-secondary" title="View source" href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Instaclause.html">Instaclause</a>.<a class="xref" href="Instaclause.Domain.html">Domain</a>.<a class="xref" href="Instaclause.Domain.Documents.html">Documents</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Instaclause.Domain.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a document within a model.
+The document is a collection of clauses and is what orchestrates the clauses into a coherent document.
+It's the equivalent of the old system's Google Docs templates.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Document : TranslatableEntity&lt;Document&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html">TranslatableEntity</a>&lt;<a class="xref" href="Instaclause.Domain.Documents.Document.html">Document</a>&gt;</div>
+      <div><span class="xref">Document</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntityId">TranslatableEntity&lt;Document&gt;.BaseLanguageEntityId</a>
+    </div>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_BaseLanguageEntity">TranslatableEntity&lt;Document&gt;.BaseLanguageEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_LanguageId">TranslatableEntity&lt;Document&gt;.LanguageId</a>
+    </div>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatusId">TranslatableEntity&lt;Document&gt;.TranslationStatusId</a>
+    </div>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Language">TranslatableEntity&lt;Document&gt;.Language</a>
+    </div>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_TranslationStatus">TranslatableEntity&lt;Document&gt;.TranslationStatus</a>
+    </div>
+    <div>
+      <a class="xref" href="Instaclause.Domain.TranslatableEntity-1.html#Instaclause_Domain_TranslatableEntity_1_Translations">TranslatableEntity&lt;Document&gt;.Translations</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Instaclause_Domain_Documents_Document_Clauses_" data-uid="Instaclause.Domain.Documents.Document.Clauses*"></a>
+
+  <h3 id="Instaclause_Domain_Documents_Document_Clauses" data-uid="Instaclause.Domain.Documents.Document.Clauses">
+  Clauses
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the collection of clauses associated with this document, representing the individual parts or sections of the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;DocumentClause&gt;? Clauses { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Instaclause.Domain.Documents.DocumentClause.html">DocumentClause</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Instaclause_Domain_Documents_Document_ContractModel_" data-uid="Instaclause.Domain.Documents.Document.ContractModel*"></a>
+
+  <h3 id="Instaclause_Domain_Documents_Document_ContractModel" data-uid="Instaclause.Domain.Documents.Document.ContractModel">
+  ContractModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the contract model associated with this document, providing a link to the model if this document is part of a contract model's documentation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContractModel? ContractModel { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Instaclause.Domain.ContractModels.ContractModel.html">ContractModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Instaclause_Domain_Documents_Document_ContractModelId_" data-uid="Instaclause.Domain.Documents.Document.ContractModelId*"></a>
+
+  <h3 id="Instaclause_Domain_Documents_Document_ContractModelId" data-uid="Instaclause.Domain.Documents.Document.ContractModelId">
+  ContractModelId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the contract model identifier associated with this document, indicating the model from which this document originates if applicable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ContractModelId { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Instaclause_Domain_Documents_Document_Id_" data-uid="Instaclause.Domain.Documents.Document.Id*"></a>
+
+  <h3 id="Instaclause_Domain_Documents_Document_Id" data-uid="Instaclause.Domain.Documents.Document.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the identifier for the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Id { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Instaclause_Domain_Documents_Document_Name_" data-uid="Instaclause.Domain.Documents.Document.Name*"></a>
+
+  <h3 id="Instaclause_Domain_Documents_Document_Name" data-uid="Instaclause.Domain.Documents.Document.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the name of the document, used for identification and display purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required string Name { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Instaclause/instaclause-platform/blob/master/src/Instaclause.Domain/Documents/Document.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

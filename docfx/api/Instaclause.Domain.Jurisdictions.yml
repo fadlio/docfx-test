@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Instaclause.Domain.Jurisdictions
+  commentId: N:Instaclause.Domain.Jurisdictions
+  id: Instaclause.Domain.Jurisdictions
+  children:
+  - Instaclause.Domain.Jurisdictions.Jurisdiction
+  langs:
+  - csharp
+  - vb
+  name: Instaclause.Domain.Jurisdictions
+  nameWithType: Instaclause.Domain.Jurisdictions
+  fullName: Instaclause.Domain.Jurisdictions
+  type: Namespace
+  assemblies:
+  - Instaclause.Domain
+references:
+- uid: Instaclause.Domain.Jurisdictions.Jurisdiction
+  commentId: T:Instaclause.Domain.Jurisdictions.Jurisdiction
+  parent: Instaclause.Domain.Jurisdictions
+  href: Instaclause.Domain.Jurisdictions.Jurisdiction.html
+  name: Jurisdiction
+  nameWithType: Jurisdiction
+  fullName: Instaclause.Domain.Jurisdictions.Jurisdiction
+- uid: Instaclause.Domain.Jurisdictions
+  commentId: N:Instaclause.Domain.Jurisdictions
+  href: Instaclause.html
+  name: Instaclause.Domain.Jurisdictions
+  nameWithType: Instaclause.Domain.Jurisdictions
+  fullName: Instaclause.Domain.Jurisdictions
+  spec.csharp:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Jurisdictions
+    name: Jurisdictions
+    href: Instaclause.Domain.Jurisdictions.html
+  spec.vb:
+  - uid: Instaclause
+    name: Instaclause
+    href: Instaclause.html
+  - name: .
+  - uid: Instaclause.Domain
+    name: Domain
+    href: Instaclause.Domain.html
+  - name: .
+  - uid: Instaclause.Domain.Jurisdictions
+    name: Jurisdictions
+    href: Instaclause.Domain.Jurisdictions.html
