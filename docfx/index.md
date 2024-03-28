@@ -1,7 +1,4 @@
----
-_layout: landing
----
-# instaclause-platform
+# Overview
 
 ## Programming Principles
 - **Clean Architecture**

@@ -1,44 +1,43 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController
-  commentId: T:Instaclause.Accountant.Api.Controllers.ContractsController
-  id: ContractsController
-  parent: Instaclause.Accountant.Api.Controllers
+- uid: Api.Controllers.WeatherForecastController
+  commentId: T:Api.Controllers.WeatherForecastController
+  id: WeatherForecastController
+  parent: Api.Controllers
   children:
-  - Instaclause.Accountant.Api.Controllers.ContractsController.#ctor(Instaclause.Common.Application.Persistence.IInstaclauseContext,Instaclause.Common.Application.Templates.ITemplateService)
-  - Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract(Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest)
-  - Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract(System.Int32,System.Int32)
+  - Api.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController})
+  - Api.Controllers.WeatherForecastController.Get
   langs:
   - csharp
   - vb
-  name: ContractsController
-  nameWithType: ContractsController
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController
+  name: WeatherForecastController
+  nameWithType: WeatherForecastController
+  fullName: Api.Controllers.WeatherForecastController
   type: Class
   source:
     remote:
-      path: src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-      branch: master
-      repo: https://github.com/Instaclause/instaclause-platform.git
-    id: ContractsController
-    path: ../src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-    startLine: 12
+      path: src/Api/Controllers/WeatherForecastController.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: WeatherForecastController
+    path: ../src/Api/Controllers/WeatherForecastController.cs
+    startLine: 4
   assemblies:
-  - Instaclause.Accountant.Api
-  namespace: Instaclause.Accountant.Api.Controllers
+  - Api
+  namespace: Api.Controllers
   syntax:
     content: >-
       [ApiController]
 
       [Route("[controller]")]
 
-      public class ContractsController : ControllerBase
+      public class WeatherForecastController : ControllerBase
     content.vb: >-
       <ApiController>
 
       <Route("[controller]")>
 
-      Public Class ContractsController Inherits ControllerBase
+      Public Class WeatherForecastController Inherits ControllerBase
   inheritance:
   - System.Object
   - Microsoft.AspNetCore.Mvc.ControllerBase
@@ -232,180 +231,103 @@ items:
     arguments:
     - type: System.String
       value: '[controller]'
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController.#ctor(Instaclause.Common.Application.Persistence.IInstaclauseContext,Instaclause.Common.Application.Templates.ITemplateService)
-  commentId: M:Instaclause.Accountant.Api.Controllers.ContractsController.#ctor(Instaclause.Common.Application.Persistence.IInstaclauseContext,Instaclause.Common.Application.Templates.ITemplateService)
-  id: '#ctor(Instaclause.Common.Application.Persistence.IInstaclauseContext,Instaclause.Common.Application.Templates.ITemplateService)'
-  parent: Instaclause.Accountant.Api.Controllers.ContractsController
+- uid: Api.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController})
+  commentId: M:Api.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController})'
+  parent: Api.Controllers.WeatherForecastController
   langs:
   - csharp
   - vb
-  name: ContractsController(IInstaclauseContext, ITemplateService)
-  nameWithType: ContractsController.ContractsController(IInstaclauseContext, ITemplateService)
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController.ContractsController(Instaclause.Common.Application.Persistence.IInstaclauseContext, Instaclause.Common.Application.Templates.ITemplateService)
+  name: WeatherForecastController(ILogger<WeatherForecastController>)
+  nameWithType: WeatherForecastController.WeatherForecastController(ILogger<WeatherForecastController>)
+  fullName: Api.Controllers.WeatherForecastController.WeatherForecastController(Microsoft.Extensions.Logging.ILogger<Api.Controllers.WeatherForecastController>)
   type: Constructor
   source:
     remote:
-      path: src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-      branch: master
-      repo: https://github.com/Instaclause/instaclause-platform.git
+      path: src/Api/Controllers/WeatherForecastController.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
     id: .ctor
-    path: ../src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-    startLine: 12
+    path: ../src/Api/Controllers/WeatherForecastController.cs
+    startLine: 15
   assemblies:
-  - Instaclause.Accountant.Api
-  namespace: Instaclause.Accountant.Api.Controllers
+  - Api
+  namespace: Api.Controllers
   syntax:
-    content: public ContractsController(IInstaclauseContext context, ITemplateService templateService)
+    content: public WeatherForecastController(ILogger<WeatherForecastController> logger)
     parameters:
-    - id: context
-      type: Instaclause.Common.Application.Persistence.IInstaclauseContext
-    - id: templateService
-      type: Instaclause.Common.Application.Templates.ITemplateService
-    content.vb: Public Sub New(context As IInstaclauseContext, templateService As ITemplateService)
-  overload: Instaclause.Accountant.Api.Controllers.ContractsController.#ctor*
-  nameWithType.vb: ContractsController.New(IInstaclauseContext, ITemplateService)
-  fullName.vb: Instaclause.Accountant.Api.Controllers.ContractsController.New(Instaclause.Common.Application.Persistence.IInstaclauseContext, Instaclause.Common.Application.Templates.ITemplateService)
-  name.vb: New(IInstaclauseContext, ITemplateService)
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract(Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest)
-  commentId: M:Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract(Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest)
-  id: CreateContract(Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest)
-  parent: Instaclause.Accountant.Api.Controllers.ContractsController
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController}
+    content.vb: Public Sub New(logger As ILogger(Of WeatherForecastController))
+  overload: Api.Controllers.WeatherForecastController.#ctor*
+  nameWithType.vb: WeatherForecastController.New(ILogger(Of WeatherForecastController))
+  fullName.vb: Api.Controllers.WeatherForecastController.New(Microsoft.Extensions.Logging.ILogger(Of Api.Controllers.WeatherForecastController))
+  name.vb: New(ILogger(Of WeatherForecastController))
+- uid: Api.Controllers.WeatherForecastController.Get
+  commentId: M:Api.Controllers.WeatherForecastController.Get
+  id: Get
+  parent: Api.Controllers.WeatherForecastController
   langs:
   - csharp
   - vb
-  name: CreateContract(CreateContractRequest)
-  nameWithType: ContractsController.CreateContract(CreateContractRequest)
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract(Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest)
+  name: Get()
+  nameWithType: WeatherForecastController.Get()
+  fullName: Api.Controllers.WeatherForecastController.Get()
   type: Method
   source:
     remote:
-      path: src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-      branch: master
-      repo: https://github.com/Instaclause/instaclause-platform.git
-    id: CreateContract
-    path: ../src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-    startLine: 16
+      path: src/Api/Controllers/WeatherForecastController.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: Get
+    path: ../src/Api/Controllers/WeatherForecastController.cs
+    startLine: 20
   assemblies:
-  - Instaclause.Accountant.Api
-  namespace: Instaclause.Accountant.Api.Controllers
+  - Api
+  namespace: Api.Controllers
   syntax:
     content: >-
-      [HttpPost(Name = "CreateContract")]
+      [HttpGet(Name = "GetWeatherForecast")]
 
-      public Task<ActionResult<int>> CreateContract(CreateContractRequest request)
-    parameters:
-    - id: request
-      type: Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest
-      attributes:
-      - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
-        ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
-        arguments: []
+      public IEnumerable<WeatherForecast> Get()
     return:
-      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{System.Int32}}
+      type: System.Collections.Generic.IEnumerable{Api.WeatherForecast}
     content.vb: >-
-      <HttpPost(Name:="CreateContract")>
+      <HttpGet(Name:="GetWeatherForecast")>
 
-      Public Function CreateContract(request As CreateContractRequest) As Task(Of ActionResult(Of Integer))
-  overload: Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract*
+      Public Function [Get]() As IEnumerable(Of WeatherForecast)
+  overload: Api.Controllers.WeatherForecastController.Get*
   attributes:
-  - type: Microsoft.AspNetCore.Mvc.HttpPostAttribute
-    ctor: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
     arguments: []
     namedArguments:
     - name: Name
       type: System.String
-      value: CreateContract
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract(System.Int32,System.Int32)
-  commentId: M:Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract(System.Int32,System.Int32)
-  id: RenderContract(System.Int32,System.Int32)
-  parent: Instaclause.Accountant.Api.Controllers.ContractsController
-  langs:
-  - csharp
-  - vb
-  name: RenderContract(int, int)
-  nameWithType: ContractsController.RenderContract(int, int)
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract(int, int)
-  type: Method
-  source:
-    remote:
-      path: src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-      branch: master
-      repo: https://github.com/Instaclause/instaclause-platform.git
-    id: RenderContract
-    path: ../src/Instaclause.Accountant.Api/Controllers/ContractsController.cs
-    startLine: 36
-  assemblies:
-  - Instaclause.Accountant.Api
-  namespace: Instaclause.Accountant.Api.Controllers
-  syntax:
-    content: >-
-      [HttpGet("{contractId:int}/render/{documentId:int}", Name = "RenderContract")]
-
-      public Task<ActionResult<string>> RenderContract(int contractId, int documentId)
-    parameters:
-    - id: contractId
-      type: System.Int32
-    - id: documentId
-      type: System.Int32
-    return:
-      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{System.String}}
-    content.vb: >-
-      <HttpGet("{contractId:int}/render/{documentId:int}", Name:="RenderContract")>
-
-      Public Function RenderContract(contractId As Integer, documentId As Integer) As Task(Of ActionResult(Of String))
-  overload: Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract*
-  attributes:
-  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
-    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: '{contractId:int}/render/{documentId:int}'
-    namedArguments:
-    - name: Name
-      type: System.String
-      value: RenderContract
-  nameWithType.vb: ContractsController.RenderContract(Integer, Integer)
-  fullName.vb: Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract(Integer, Integer)
-  name.vb: RenderContract(Integer, Integer)
+      value: GetWeatherForecast
 references:
-- uid: Instaclause.Accountant.Api.Controllers
-  commentId: N:Instaclause.Accountant.Api.Controllers
-  href: Instaclause.html
-  name: Instaclause.Accountant.Api.Controllers
-  nameWithType: Instaclause.Accountant.Api.Controllers
-  fullName: Instaclause.Accountant.Api.Controllers
+- uid: Api.Controllers
+  commentId: N:Api.Controllers
+  href: Api.html
+  name: Api.Controllers
+  nameWithType: Api.Controllers
+  fullName: Api.Controllers
   spec.csharp:
-  - uid: Instaclause
-    name: Instaclause
-    href: Instaclause.html
-  - name: .
-  - uid: Instaclause.Accountant
-    name: Accountant
-    href: Instaclause.Accountant.html
-  - name: .
-  - uid: Instaclause.Accountant.Api
+  - uid: Api
     name: Api
-    href: Instaclause.Accountant.Api.html
+    href: Api.html
   - name: .
-  - uid: Instaclause.Accountant.Api.Controllers
+  - uid: Api.Controllers
     name: Controllers
-    href: Instaclause.Accountant.Api.Controllers.html
+    href: Api.Controllers.html
   spec.vb:
-  - uid: Instaclause
-    name: Instaclause
-    href: Instaclause.html
-  - name: .
-  - uid: Instaclause.Accountant
-    name: Accountant
-    href: Instaclause.Accountant.html
-  - name: .
-  - uid: Instaclause.Accountant.Api
+  - uid: Api
     name: Api
-    href: Instaclause.Accountant.Api.html
+    href: Api.html
   - name: .
-  - uid: Instaclause.Accountant.Api.Controllers
+  - uid: Api.Controllers
     name: Controllers
-    href: Instaclause.Accountant.Api.Controllers.html
+    href: Api.Controllers.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -9371,321 +9293,214 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
   - name: )
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController.#ctor*
-  commentId: Overload:Instaclause.Accountant.Api.Controllers.ContractsController.#ctor
-  href: Instaclause.Accountant.Api.Controllers.ContractsController.html#Instaclause_Accountant_Api_Controllers_ContractsController__ctor_Instaclause_Common_Application_Persistence_IInstaclauseContext_Instaclause_Common_Application_Templates_ITemplateService_
-  name: ContractsController
-  nameWithType: ContractsController.ContractsController
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController.ContractsController
-  nameWithType.vb: ContractsController.New
-  fullName.vb: Instaclause.Accountant.Api.Controllers.ContractsController.New
+- uid: Api.Controllers.WeatherForecastController.#ctor*
+  commentId: Overload:Api.Controllers.WeatherForecastController.#ctor
+  href: Api.Controllers.WeatherForecastController.html#Api_Controllers_WeatherForecastController__ctor_Microsoft_Extensions_Logging_ILogger_Api_Controllers_WeatherForecastController__
+  name: WeatherForecastController
+  nameWithType: WeatherForecastController.WeatherForecastController
+  fullName: Api.Controllers.WeatherForecastController.WeatherForecastController
+  nameWithType.vb: WeatherForecastController.New
+  fullName.vb: Api.Controllers.WeatherForecastController.New
   name.vb: New
-- uid: Instaclause.Common.Application.Persistence.IInstaclauseContext
-  commentId: T:Instaclause.Common.Application.Persistence.IInstaclauseContext
-  parent: Instaclause.Common.Application.Persistence
-  name: IInstaclauseContext
-  nameWithType: IInstaclauseContext
-  fullName: Instaclause.Common.Application.Persistence.IInstaclauseContext
-- uid: Instaclause.Common.Application.Templates.ITemplateService
-  commentId: T:Instaclause.Common.Application.Templates.ITemplateService
-  parent: Instaclause.Common.Application.Templates
-  name: ITemplateService
-  nameWithType: ITemplateService
-  fullName: Instaclause.Common.Application.Templates.ITemplateService
-- uid: Instaclause.Common.Application.Persistence
-  commentId: N:Instaclause.Common.Application.Persistence
-  name: Instaclause.Common.Application.Persistence
-  nameWithType: Instaclause.Common.Application.Persistence
-  fullName: Instaclause.Common.Application.Persistence
+- uid: Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{Api.Controllers.WeatherForecastController}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<WeatherForecastController>
+  nameWithType: ILogger<WeatherForecastController>
+  fullName: Microsoft.Extensions.Logging.ILogger<Api.Controllers.WeatherForecastController>
+  nameWithType.vb: ILogger(Of WeatherForecastController)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of Api.Controllers.WeatherForecastController)
+  name.vb: ILogger(Of WeatherForecastController)
   spec.csharp:
-  - uid: Instaclause
-    name: Instaclause
-  - name: .
-  - uid: Instaclause.Common
-    name: Common
-  - name: .
-  - uid: Instaclause.Common.Application
-    name: Application
-  - name: .
-  - uid: Instaclause.Common.Application.Persistence
-    name: Persistence
-  spec.vb:
-  - uid: Instaclause
-    name: Instaclause
-  - name: .
-  - uid: Instaclause.Common
-    name: Common
-  - name: .
-  - uid: Instaclause.Common.Application
-    name: Application
-  - name: .
-  - uid: Instaclause.Common.Application.Persistence
-    name: Persistence
-- uid: Instaclause.Common.Application.Templates
-  commentId: N:Instaclause.Common.Application.Templates
-  name: Instaclause.Common.Application.Templates
-  nameWithType: Instaclause.Common.Application.Templates
-  fullName: Instaclause.Common.Application.Templates
-  spec.csharp:
-  - uid: Instaclause
-    name: Instaclause
-  - name: .
-  - uid: Instaclause.Common
-    name: Common
-  - name: .
-  - uid: Instaclause.Common.Application
-    name: Application
-  - name: .
-  - uid: Instaclause.Common.Application.Templates
-    name: Templates
-  spec.vb:
-  - uid: Instaclause
-    name: Instaclause
-  - name: .
-  - uid: Instaclause.Common
-    name: Common
-  - name: .
-  - uid: Instaclause.Common.Application
-    name: Application
-  - name: .
-  - uid: Instaclause.Common.Application.Templates
-    name: Templates
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract*
-  commentId: Overload:Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract
-  href: Instaclause.Accountant.Api.Controllers.ContractsController.html#Instaclause_Accountant_Api_Controllers_ContractsController_CreateContract_Instaclause_Accountant_Api_Models_Contracts_CreateContractRequest_
-  name: CreateContract
-  nameWithType: ContractsController.CreateContract
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController.CreateContract
-- uid: Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest
-  commentId: T:Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest
-  parent: Instaclause.Accountant.Api.Models.Contracts
-  href: Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest.html
-  name: CreateContractRequest
-  nameWithType: CreateContractRequest
-  fullName: Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest
-- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{System.Int32}}
-  commentId: T:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{System.Int32}}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ActionResult<int>>
-  nameWithType: Task<ActionResult<int>>
-  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.ActionResult<int>>
-  nameWithType.vb: Task(Of ActionResult(Of Integer))
-  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.ActionResult(Of Integer))
-  name.vb: Task(Of ActionResult(Of Integer))
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   - name: <
-  - uid: Microsoft.AspNetCore.Mvc.ActionResult`1
-    name: ActionResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult-1
-  - name: <
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '>'
+  - uid: Api.Controllers.WeatherForecastController
+    name: WeatherForecastController
+    href: Api.Controllers.WeatherForecastController.html
   - name: '>'
   spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   - name: (
   - name: Of
   - name: " "
-  - uid: Microsoft.AspNetCore.Mvc.ActionResult`1
-    name: ActionResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - uid: Api.Controllers.WeatherForecastController
+    name: WeatherForecastController
+    href: Api.Controllers.WeatherForecastController.html
   - name: )
-  - name: )
-- uid: Instaclause.Accountant.Api.Models.Contracts
-  commentId: N:Instaclause.Accountant.Api.Models.Contracts
-  href: Instaclause.html
-  name: Instaclause.Accountant.Api.Models.Contracts
-  nameWithType: Instaclause.Accountant.Api.Models.Contracts
-  fullName: Instaclause.Accountant.Api.Models.Contracts
-  spec.csharp:
-  - uid: Instaclause
-    name: Instaclause
-    href: Instaclause.html
-  - name: .
-  - uid: Instaclause.Accountant
-    name: Accountant
-    href: Instaclause.Accountant.html
-  - name: .
-  - uid: Instaclause.Accountant.Api
-    name: Api
-    href: Instaclause.Accountant.Api.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Models
-    name: Models
-    href: Instaclause.Accountant.Api.Models.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Models.Contracts
-    name: Contracts
-    href: Instaclause.Accountant.Api.Models.Contracts.html
-  spec.vb:
-  - uid: Instaclause
-    name: Instaclause
-    href: Instaclause.html
-  - name: .
-  - uid: Instaclause.Accountant
-    name: Accountant
-    href: Instaclause.Accountant.html
-  - name: .
-  - uid: Instaclause.Accountant.Api
-    name: Api
-    href: Instaclause.Accountant.Api.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Models
-    name: Models
-    href: Instaclause.Accountant.Api.Models.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Models.Contracts
-    name: Contracts
-    href: Instaclause.Accountant.Api.Models.Contracts.html
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
   spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   - name: <
-  - name: TResult
+  - name: TCategoryName
   - name: '>'
   spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
   - name: (
   - name: Of
   - name: " "
-  - name: TResult
+  - name: TCategoryName
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: Api.Controllers.WeatherForecastController.Get*
+  commentId: Overload:Api.Controllers.WeatherForecastController.Get
+  href: Api.Controllers.WeatherForecastController.html#Api_Controllers_WeatherForecastController_Get
+  name: Get
+  nameWithType: WeatherForecastController.Get
+  fullName: Api.Controllers.WeatherForecastController.Get
+- uid: System.Collections.Generic.IEnumerable{Api.WeatherForecast}
+  commentId: T:System.Collections.Generic.IEnumerable{Api.WeatherForecast}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<WeatherForecast>
+  nameWithType: IEnumerable<WeatherForecast>
+  fullName: System.Collections.Generic.IEnumerable<Api.WeatherForecast>
+  nameWithType.vb: IEnumerable(Of WeatherForecast)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Api.WeatherForecast)
+  name.vb: IEnumerable(Of WeatherForecast)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Api.WeatherForecast
+    name: WeatherForecast
+    href: Api.WeatherForecast.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Api.WeatherForecast
+    name: WeatherForecast
+    href: Api.WeatherForecast.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
   spec.csharp:
   - uid: System
     name: System
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system
   - name: .
-  - uid: System.Threading
-    name: Threading
+  - uid: System.Collections
+    name: Collections
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
+  - uid: System.Collections.Generic
+    name: Generic
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
   spec.vb:
   - uid: System
     name: System
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system
   - name: .
-  - uid: System.Threading
-    name: Threading
+  - uid: System.Collections
+    name: Collections
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
+    href: https://learn.microsoft.com/dotnet/api/system.collections
   - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
+  - uid: System.Collections.Generic
+    name: Generic
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract*
-  commentId: Overload:Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract
-  href: Instaclause.Accountant.Api.Controllers.ContractsController.html#Instaclause_Accountant_Api_Controllers_ContractsController_RenderContract_System_Int32_System_Int32_
-  name: RenderContract
-  nameWithType: ContractsController.RenderContract
-  fullName: Instaclause.Accountant.Api.Controllers.ContractsController.RenderContract
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{System.String}}
-  commentId: T:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult{System.String}}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ActionResult<string>>
-  nameWithType: Task<ActionResult<string>>
-  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.ActionResult<string>>
-  nameWithType.vb: Task(Of ActionResult(Of String))
-  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.ActionResult(Of String))
-  name.vb: Task(Of ActionResult(Of String))
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: Microsoft.AspNetCore.Mvc.ActionResult`1
-    name: ActionResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult-1
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: Microsoft.AspNetCore.Mvc.ActionResult`1
-    name: ActionResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.actionresult-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  - name: )
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

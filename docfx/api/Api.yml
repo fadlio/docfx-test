@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Api
+  commentId: N:Api
+  id: Api
+  children:
+  - Api.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: Api
+  nameWithType: Api
+  fullName: Api
+  type: Namespace
+  assemblies:
+  - Api
+references:
+- uid: Api.WeatherForecast
+  commentId: T:Api.WeatherForecast
+  href: Api.WeatherForecast.html
+  name: WeatherForecast
+  nameWithType: WeatherForecast
+  fullName: Api.WeatherForecast

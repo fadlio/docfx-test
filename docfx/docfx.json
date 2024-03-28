@@ -5,8 +5,7 @@
         {
           "src": "../src",
           "files": [
-            "Instaclause.Domain/*.csproj",
-            "Instaclause.Accountant.*/*.csproj"
+            "*/*.csproj"
           ]
         }
       ],
@@ -31,6 +30,12 @@
         ]
       }
     ],
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "sitemap": {
+      "baseUrl": "https://fadlio.github.io/docfx-test",
+      "priority": 0.5,
+      "changefreq": "daily"
+    },
     "output": "_site",
     "template": [
       "default",

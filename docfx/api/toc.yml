@@ -1,131 +1,13 @@
 ### YamlMime:TableOfContent
 items:
-- uid: Instaclause.Accountant.Api.Controllers
-  name: Instaclause.Accountant.Api.Controllers
+- uid: Api
+  name: Api
   items:
-  - uid: Instaclause.Accountant.Api.Controllers.AnswersController
-    name: AnswersController
-  - uid: Instaclause.Accountant.Api.Controllers.ContractsController
-    name: ContractsController
-  - uid: Instaclause.Accountant.Api.Controllers.PartiesController
-    name: PartiesController
-- uid: Instaclause.Accountant.Api.Models.Contracts
-  name: Instaclause.Accountant.Api.Models.Contracts
+  - uid: Api.WeatherForecast
+    name: WeatherForecast
+- uid: Api.Controllers
+  name: Api.Controllers
   items:
-  - uid: Instaclause.Accountant.Api.Models.Contracts.CreateContractRequest
-    name: CreateContractRequest
-  - uid: Instaclause.Accountant.Api.Models.Contracts.CreatePartyFieldRequest
-    name: CreatePartyFieldRequest
-  - uid: Instaclause.Accountant.Api.Models.Contracts.CreatePartyRequest
-    name: CreatePartyRequest
-  - uid: Instaclause.Accountant.Api.Models.Contracts.MissingAnswersResponse
-    name: MissingAnswersResponse
-- uid: Instaclause.Accountant.Api.Tests.Controllers
-  name: Instaclause.Accountant.Api.Tests.Controllers
-  items:
-  - uid: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest
-    name: ContractsControllerTest
-- uid: Instaclause.Domain
-  name: Instaclause.Domain
-  items:
-  - uid: Instaclause.Domain.StampedEntity
-    name: StampedEntity
-  - uid: Instaclause.Domain.TranslatableEntity`1
-    name: TranslatableEntity<T>
-- uid: Instaclause.Domain.Clauses
-  name: Instaclause.Domain.Clauses
-  items:
-  - uid: Instaclause.Domain.Clauses.Clause
-    name: Clause
-  - uid: Instaclause.Domain.Clauses.ClauseField
-    name: ClauseField
-  - uid: Instaclause.Domain.Clauses.ClauseGroup
-    name: ClauseGroup
-  - uid: Instaclause.Domain.Clauses.Snippet
-    name: Snippet
-- uid: Instaclause.Domain.ContractModels
-  name: Instaclause.Domain.ContractModels
-  items:
-  - uid: Instaclause.Domain.ContractModels.ContractModel
-    name: ContractModel
-  - uid: Instaclause.Domain.ContractModels.ContractModelGroup
-    name: ContractModelGroup
-  - uid: Instaclause.Domain.ContractModels.ContractModelParty
-    name: ContractModelParty
-  - uid: Instaclause.Domain.ContractModels.ContractModelPartyAdditionalField
-    name: ContractModelPartyAdditionalField
-- uid: Instaclause.Domain.Contracts
-  name: Instaclause.Domain.Contracts
-  items:
-  - uid: Instaclause.Domain.Contracts.Contract
-    name: Contract
-  - uid: Instaclause.Domain.Contracts.ContractArtifact
-    name: ContractArtifact
-  - uid: Instaclause.Domain.Contracts.ContractClauseFieldValue
-    name: ContractClauseFieldValue
-  - uid: Instaclause.Domain.Contracts.ContractDocumentRender
-    name: ContractDocumentRender
-  - uid: Instaclause.Domain.Contracts.ContractPartyValue
-    name: ContractPartyValue
-  - uid: Instaclause.Domain.Contracts.ContractQuestionValue
-    name: ContractQuestionValue
-- uid: Instaclause.Domain.Customers
-  name: Instaclause.Domain.Customers
-  items:
-  - uid: Instaclause.Domain.Customers.Customer
-    name: Customer
-  - uid: Instaclause.Domain.Customers.CustomerParty
-    name: CustomerParty
-  - uid: Instaclause.Domain.Customers.CustomerPartyFieldValue
-    name: CustomerPartyFieldValue
-  - uid: Instaclause.Domain.Customers.User
-    name: User
-- uid: Instaclause.Domain.Documents
-  name: Instaclause.Domain.Documents
-  items:
-  - uid: Instaclause.Domain.Documents.Document
-    name: Document
-  - uid: Instaclause.Domain.Documents.DocumentClause
-    name: DocumentClause
-- uid: Instaclause.Domain.Fields
-  name: Instaclause.Domain.Fields
-  items:
-  - uid: Instaclause.Domain.Fields.Field
-    name: Field
-  - uid: Instaclause.Domain.Fields.FieldGroup
-    name: FieldGroup
-  - uid: Instaclause.Domain.Fields.FieldOption
-    name: FieldOption
-  - uid: Instaclause.Domain.Fields.FieldType
-    name: FieldType
-  - uid: Instaclause.Domain.Fields.FieldTypeFieldTypeUnit
-    name: FieldTypeFieldTypeUnit
-  - uid: Instaclause.Domain.Fields.FieldTypeUnit
-    name: FieldTypeUnit
-- uid: Instaclause.Domain.Jurisdictions
-  name: Instaclause.Domain.Jurisdictions
-  items:
-  - uid: Instaclause.Domain.Jurisdictions.Jurisdiction
-    name: Jurisdiction
-- uid: Instaclause.Domain.PartyTypes
-  name: Instaclause.Domain.PartyTypes
-  items:
-  - uid: Instaclause.Domain.PartyTypes.PartyType
-    name: PartyType
-  - uid: Instaclause.Domain.PartyTypes.PartyTypeField
-    name: PartyTypeField
-- uid: Instaclause.Domain.Questions
-  name: Instaclause.Domain.Questions
-  items:
-  - uid: Instaclause.Domain.Questions.Question
-    name: Question
-- uid: Instaclause.Domain.Translations
-  name: Instaclause.Domain.Translations
-  items:
-  - uid: Instaclause.Domain.Translations.Language
-    name: Language
-  - uid: Instaclause.Domain.Translations.Translation
-    name: Translation
-  - uid: Instaclause.Domain.Translations.TranslationStatus
-    name: TranslationStatus
+  - uid: Api.Controllers.WeatherForecastController
+    name: WeatherForecastController
 memberLayout: SamePage

@@ -1,42 +1,35 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest
-  commentId: T:Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest
-  id: ContractsControllerTest
-  parent: Instaclause.Accountant.Api.Tests.Controllers
+- uid: Api.WeatherForecast
+  commentId: T:Api.WeatherForecast
+  id: WeatherForecast
+  parent: Api
   children:
-  - Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest
+  - Api.WeatherForecast.Date
+  - Api.WeatherForecast.Summary
+  - Api.WeatherForecast.TemperatureC
+  - Api.WeatherForecast.TemperatureF
   langs:
   - csharp
   - vb
-  name: ContractsControllerTest
-  nameWithType: ContractsControllerTest
-  fullName: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest
+  name: WeatherForecast
+  nameWithType: WeatherForecast
+  fullName: Api.WeatherForecast
   type: Class
   source:
     remote:
-      path: src/Instaclause.Accountant.Api.Tests/Controllers/ContractsControllerTest.cs
-      branch: master
-      repo: https://github.com/Instaclause/instaclause-platform.git
-    id: ContractsControllerTest
-    path: ../src/Instaclause.Accountant.Api.Tests/Controllers/ContractsControllerTest.cs
-    startLine: 11
+      path: src/Api/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: WeatherForecast
+    path: ../src/Api/WeatherForecast.cs
+    startLine: 2
   assemblies:
-  - Instaclause.Accountant.Api.Tests
-  namespace: Instaclause.Accountant.Api.Tests.Controllers
+  - Api
+  namespace: Api
   syntax:
-    content: >-
-      [TestClass]
-
-      [TestSubject(typeof(ContractsController))]
-
-      public class ContractsControllerTest
-    content.vb: >-
-      <TestClass>
-
-      <TestSubject(GetType(ContractsController))>
-
-      Public Class ContractsControllerTest
+    content: public class WeatherForecast
+    content.vb: Public Class WeatherForecast
   inheritance:
   - System.Object
   inheritedMembers:
@@ -47,100 +40,129 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-  attributes:
-  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
-    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
-    arguments: []
-  - type: JetBrains.Annotations.TestSubjectAttribute
-    ctor: JetBrains.Annotations.TestSubjectAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: Instaclause.Accountant.Api.Controllers.ContractsController
-- uid: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest
-  commentId: M:Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest
-  id: ContractRenderTest
-  parent: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest
+- uid: Api.WeatherForecast.Date
+  commentId: P:Api.WeatherForecast.Date
+  id: Date
+  parent: Api.WeatherForecast
   langs:
   - csharp
   - vb
-  name: ContractRenderTest()
-  nameWithType: ContractsControllerTest.ContractRenderTest()
-  fullName: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest()
-  type: Method
+  name: Date
+  nameWithType: WeatherForecast.Date
+  fullName: Api.WeatherForecast.Date
+  type: Property
   source:
     remote:
-      path: src/Instaclause.Accountant.Api.Tests/Controllers/ContractsControllerTest.cs
-      branch: master
-      repo: https://github.com/Instaclause/instaclause-platform.git
-    id: ContractRenderTest
-    path: ../src/Instaclause.Accountant.Api.Tests/Controllers/ContractsControllerTest.cs
-    startLine: 19
+      path: src/Api/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: Date
+    path: ../src/Api/WeatherForecast.cs
+    startLine: 4
   assemblies:
-  - Instaclause.Accountant.Api.Tests
-  namespace: Instaclause.Accountant.Api.Tests.Controllers
+  - Api
+  namespace: Api
   syntax:
-    content: >-
-      [TestMethod]
-
-      public Task ContractRenderTest()
+    content: public DateOnly Date { get; set; }
+    parameters: []
     return:
-      type: System.Threading.Tasks.Task
-    content.vb: >-
-      <TestMethod>
-
-      Public Function ContractRenderTest() As Task
-  overload: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest*
-  attributes:
-  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
-    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
-    arguments: []
+      type: System.DateOnly
+    content.vb: Public Property [Date] As DateOnly
+  overload: Api.WeatherForecast.Date*
+- uid: Api.WeatherForecast.TemperatureC
+  commentId: P:Api.WeatherForecast.TemperatureC
+  id: TemperatureC
+  parent: Api.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: TemperatureC
+  nameWithType: WeatherForecast.TemperatureC
+  fullName: Api.WeatherForecast.TemperatureC
+  type: Property
+  source:
+    remote:
+      path: src/Api/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: TemperatureC
+    path: ../src/Api/WeatherForecast.cs
+    startLine: 6
+  assemblies:
+  - Api
+  namespace: Api
+  syntax:
+    content: public int TemperatureC { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TemperatureC As Integer
+  overload: Api.WeatherForecast.TemperatureC*
+- uid: Api.WeatherForecast.TemperatureF
+  commentId: P:Api.WeatherForecast.TemperatureF
+  id: TemperatureF
+  parent: Api.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: TemperatureF
+  nameWithType: WeatherForecast.TemperatureF
+  fullName: Api.WeatherForecast.TemperatureF
+  type: Property
+  source:
+    remote:
+      path: src/Api/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: TemperatureF
+    path: ../src/Api/WeatherForecast.cs
+    startLine: 8
+  assemblies:
+  - Api
+  namespace: Api
+  syntax:
+    content: public int TemperatureF { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TemperatureF As Integer
+  overload: Api.WeatherForecast.TemperatureF*
+- uid: Api.WeatherForecast.Summary
+  commentId: P:Api.WeatherForecast.Summary
+  id: Summary
+  parent: Api.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: WeatherForecast.Summary
+  fullName: Api.WeatherForecast.Summary
+  type: Property
+  source:
+    remote:
+      path: src/Api/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/fadlio/docfx-test.git
+    id: Summary
+    path: ../src/Api/WeatherForecast.cs
+    startLine: 10
+  assemblies:
+  - Api
+  namespace: Api
+  syntax:
+    content: public string? Summary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Summary As String
+  overload: Api.WeatherForecast.Summary*
 references:
-- uid: Instaclause.Accountant.Api.Tests.Controllers
-  commentId: N:Instaclause.Accountant.Api.Tests.Controllers
-  href: Instaclause.html
-  name: Instaclause.Accountant.Api.Tests.Controllers
-  nameWithType: Instaclause.Accountant.Api.Tests.Controllers
-  fullName: Instaclause.Accountant.Api.Tests.Controllers
-  spec.csharp:
-  - uid: Instaclause
-    name: Instaclause
-    href: Instaclause.html
-  - name: .
-  - uid: Instaclause.Accountant
-    name: Accountant
-    href: Instaclause.Accountant.html
-  - name: .
-  - uid: Instaclause.Accountant.Api
-    name: Api
-    href: Instaclause.Accountant.Api.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Tests
-    name: Tests
-    href: Instaclause.Accountant.Api.Tests.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Tests.Controllers
-    name: Controllers
-    href: Instaclause.Accountant.Api.Tests.Controllers.html
-  spec.vb:
-  - uid: Instaclause
-    name: Instaclause
-    href: Instaclause.html
-  - name: .
-  - uid: Instaclause.Accountant
-    name: Accountant
-    href: Instaclause.Accountant.html
-  - name: .
-  - uid: Instaclause.Accountant.Api
-    name: Api
-    href: Instaclause.Accountant.Api.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Tests
-    name: Tests
-    href: Instaclause.Accountant.Api.Tests.html
-  - name: .
-  - uid: Instaclause.Accountant.Api.Tests.Controllers
-    name: Controllers
-    href: Instaclause.Accountant.Api.Tests.Controllers.html
+- uid: Api
+  commentId: N:Api
+  href: Api.html
+  name: Api
+  nameWithType: Api
+  fullName: Api
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -378,54 +400,57 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest*
-  commentId: Overload:Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest
-  href: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.html#Instaclause_Accountant_Api_Tests_Controllers_ContractsControllerTest_ContractRenderTest
-  name: ContractRenderTest
-  nameWithType: ContractsControllerTest.ContractRenderTest
-  fullName: Instaclause.Accountant.Api.Tests.Controllers.ContractsControllerTest.ContractRenderTest
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
+- uid: Api.WeatherForecast.Date*
+  commentId: Overload:Api.WeatherForecast.Date
+  href: Api.WeatherForecast.html#Api_WeatherForecast_Date
+  name: Date
+  nameWithType: WeatherForecast.Date
+  fullName: Api.WeatherForecast.Date
+- uid: System.DateOnly
+  commentId: T:System.DateOnly
+  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
+  href: https://learn.microsoft.com/dotnet/api/system.dateonly
+  name: DateOnly
+  nameWithType: DateOnly
+  fullName: System.DateOnly
+- uid: Api.WeatherForecast.TemperatureC*
+  commentId: Overload:Api.WeatherForecast.TemperatureC
+  href: Api.WeatherForecast.html#Api_WeatherForecast_TemperatureC
+  name: TemperatureC
+  nameWithType: WeatherForecast.TemperatureC
+  fullName: Api.WeatherForecast.TemperatureC
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Api.WeatherForecast.TemperatureF*
+  commentId: Overload:Api.WeatherForecast.TemperatureF
+  href: Api.WeatherForecast.html#Api_WeatherForecast_TemperatureF
+  name: TemperatureF
+  nameWithType: WeatherForecast.TemperatureF
+  fullName: Api.WeatherForecast.TemperatureF
+- uid: Api.WeatherForecast.Summary*
+  commentId: Overload:Api.WeatherForecast.Summary
+  href: Api.WeatherForecast.html#Api_WeatherForecast_Summary
+  name: Summary
+  nameWithType: WeatherForecast.Summary
+  fullName: Api.WeatherForecast.Summary
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
