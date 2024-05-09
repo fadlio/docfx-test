@@ -4,7 +4,7 @@ variable "project_id" {
 
 variable "canary_enabled" {
   description = "Canary switch"
-  type = bool
+  type        = bool
 }
 
 variable "expert_api_live_version" {

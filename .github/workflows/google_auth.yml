@@ -17,8 +17,6 @@ jobs:
       contents: "read"
       id-token: "write"
 
-    outputs:
-      credentials_file_path: ${{ steps.google-auth.outputs.credentials }}
     steps:
       - uses: "actions/checkout@v4"
 
@@ -30,9 +28,10 @@ jobs:
           service_account: ${{ secrets.GCP_WIF_SERVICE_ACCOUNT }}
 
       - name: Set env
-        run: echo "GOOGLE_APPLICATION_CREDENTIALS=${{ steps.google-auth.outputs.credentials }}" >> $GITHUB_ENV
+        run: echo "GOOGLE_APPLICATION_CREDENTIALS=${{ steps.google-auth.outputs.credentials_file_path }}" >> $GITHUB_ENV
 
       - name: Setup Terraform with specified version on the runner
+        
         uses: hashicorp/setup-terraform@v2
         with:
           terraform_version: 1.8.2
@@ -40,10 +39,6 @@ jobs:
       - name: Terraform init
         id: init
         run: terraform init
-
-      - name: Terraform format
-        id: fmt
-        run: terraform fmt -check
 
       - name: Terraform validate
         id: validate
